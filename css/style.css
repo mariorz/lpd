@@ -1,0 +1,53 @@
+body {
+    font-family: monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #272727;
+        color: #dddddd;
+    }
+
+    a {
+        color: #f1f1f1;
+    }
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    max-width: 350px;
+    text-align: center;
+    font-size: 42px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 5px solid #191919;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+}
+
+code {
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.3em;
+    margin-left: 10px;
+    background-color: #e1e1e1;
+    border-radius: 3px;
+    padding: 5px 10px;
+    overflow-x: auto;
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
