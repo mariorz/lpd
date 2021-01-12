@@ -32,7 +32,9 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+    margin: 0;
+
+
 }
 a:focus {
   outline: thin dotted;
@@ -156,8 +158,39 @@ input {
 
 }
 input.connect {
-    font-size:16px;
-    padding:6px;
+    #position: absolute;
+    #width: 160px;
+    #height: 32px;
+    #left: 1064px;
+    #top: 32px;
+    padding: 8px;
+
+    /* Revert/Green */
+
+    background: #14F46F;
+    border: 0px solid #8EF0B6;
+    box-sizing: border-box;
+    /* GreenBtn */
+
+    box-shadow: -2px -2px 6px rgba(20, 244, 111, 0.3), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(50, 148, 90, 0.3), inset -1px -1px 0px #12E166;
+    border-radius: 6px;
+
+
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #031116;
+    #opacity: 0.7;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
@@ -671,3 +704,113 @@ hr.lp-header-divider {
     background: rgba(232, 249, 238, 0.1);
     margin-top: 10px;
 }
+
+.landing-footer {
+    background-image: url("../assets/landing-bg.png");
+    width: 1200px;
+    height: 300px;
+    background-repeat:repeat-x;
+    background-size:contain;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    background-size: 713px;
+}
+
+.landing-box {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-bottom: 500px;
+
+}
+.landing-banner {
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    
+    /* or 114% */
+
+    letter-spacing: 0.055em;
+
+    color: #E8F9EE;
+
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
+
+    width: 467px;
+    height: 64px;
+
+}
+
+.footer-text {
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #E8F9EE;
+    clear: both;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 170px;
+    padding-top: 150px;
+
+}
+
+.landing-go-button {
+    #display: flex;
+    #flex-direction: row;
+    #justify-content: center;
+    #align-items: center;
+    #padding: 12px;
+
+    #position: absolute;
+    width: 52px;
+    height: 58px;
+    #left: 623px;
+    #top: 416px;
+    #padding-top: 10px;
+    #padding-bottom: 18px;
+
+    /* Revert/Green */
+
+    background: #14F46F;
+    #border: 1px solid #8EF0B6;
+    box-sizing: border-box;
+    /* GreenBtn */
+
+    #box-shadow: -2px -2px 6px rgba(20, 244, 111, 0.3), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(50, 148, 90, 0.3), inset -1px -1px 0px #12E166;
+    border-radius: 0px 8px 8px 0px;
+    color: #031116;
+
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left:-8px;
+    padding-top:0px;
+    padding-bottom:0px;
+
+
+}
+.landing-input {
+    background: #031116;
+    /* Revert/Dark */
+
+    border: 0px solid #031116;
+    box-sizing: border-box;
+    /* InputDark */
+    height:60px;
+    #box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 8px 0px 0px 8px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom:5px;
+}
+
