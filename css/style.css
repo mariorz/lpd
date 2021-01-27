@@ -226,6 +226,7 @@ html {
   color: #657b83;
   margin: 1em;
   background-color: #031116;
+  
 }
 body {
     background-color: #031116;
@@ -233,7 +234,8 @@ body {
   #max-width: 23cm;
   border: 0pt solid #212121;
   padding: 1em;
-  background: linear-gradient(180deg, rgba(30, 41, 45, 0.375) 0%, rgba(3, 17, 22, 0.25) 100%);
+
+  #background: linear-gradient(180deg, rgba(30, 41, 45, 0.375) 0%, rgba(3, 17, 22, 0.25) 100%);
 
 }
 
@@ -705,17 +707,7 @@ hr.lp-header-divider {
     margin-top: 10px;
 }
 
-.landing-footer {
-    background-image: url("../assets/landing-bg.png");
-    width: 1200px;
-    background-repeat:repeat-x;
-    background-size:contain;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-    background-size: 713px;
-}
+
 
 .landing-box {
     margin-top: 100px;
@@ -743,6 +735,20 @@ hr.lp-header-divider {
 
 }
 
+.landing-footer {
+    background-image: url("../assets/landing-bg.png");
+    width: 1200px;
+    background-repeat:repeat-x;
+    background-size:contain;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -220px;
+    background-size: 713px;
+    display: flex;
+    flex-flow: row;
+}
+
 .footer-text {
     font-family: Regio Mono, monospace;
     font-style: normal;
@@ -755,10 +761,32 @@ hr.lp-header-divider {
     color: #E8F9EE;
     clear: both;
     position: relative;
-    margin-top: -200px;
+    margin-top: 10px;
     margin-left: 170px;
     padding-top: 150px;
 
+}
+
+.footer-text-right {
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #E8F9EE;
+
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 150px;
+
+}
+
+.footer-text-right a:link, .footer-text-right a:visited, .footer-text-right a:active {
+    color: white;
 }
 
 .landing-go-button {
@@ -883,3 +911,33 @@ hr.lp-header-divider {
 .login-options a {
     text-decoration: none;
 }
+
+
+.gloss-item {
+    padding-bottom:8px;
+    color: white;
+    width: 95%;
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #E8F9EE;
+}
+
+.gloss-word {
+    color: #89A58E;
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 171% */
+
+    letter-spacing: 0.005em;
+
+    color: #89A58E;
+    margin-bottom: 0px;
+}
+           
