@@ -1,0 +1,1 @@
+{"version":3,"sources":["revert/config.cljs"],"mappings":";AAEA,AAAKA,AACMC","names":["revert.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns revert.config)\n\n(def debug?\n  ^boolean goog.DEBUG)\n"]}

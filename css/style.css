@@ -64,8 +64,11 @@ samp {
   font-size: 1em;
 }
 pre {
+    border: none;
+    background-color: #031116;
   white-space: pre-wrap;
   word-wrap: break-word;
+  color: white;
 }
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
@@ -444,6 +447,10 @@ div.bigneutral {color: rgb(255,255,255);
 
 div.connect {
     float:right;
+    margin-top:10px;
+    margin-bottom:0px;
+    color: #14F46F;
+    margin-right:14px;
 }
 
 div.subtitle {
@@ -501,6 +508,21 @@ div.subtitle2 {
 }
 
 
+.pos-log {
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #E8F9EE;
+    margin-bottom:-6px;
+
+
+}
+
+pos-log.a :link {
+    text-decoration: underline;
+}
 
 ::placeholder {
     color: #657b83;
@@ -615,24 +637,64 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 }
 
 .lp-pos-header-segment1 {
-    width: 25%;
+    width: 20%;
     display: inline-block;
     vertical-align:top;
 }
 
 .lp-pos-header-segment2 {
-    width: 25%;
+    width: 20%;
     display: inline-block;
 }
 
 .lp-pos-header-segment3 {
-    width: 25%;
+    width: 20%;
     display: inline-block;
 }
 
 .lp-pos-header-segment4 {
-    width: 25%;
+    width: 20%;
     display: inline-block;
+}
+
+.lp-pos-header-segment5 {
+    width: 20%;
+    display: inline-block;
+}
+
+.lp-pos-info-segment1 {
+    width: 18%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.lp-pos-info-segment2 {
+    width: 26%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.lp-pos-info-segment3 {
+    width: 28%;
+    display: inline-block;
+    vertical-align:top;
+
+}
+
+.lp-pos-info-segment4 {
+    width: 28%;
+    display: inline-block;
+    vertical-align:top;
+
+}
+
+
+
+
+.lp-pos-header-ignore-button {
+    margin-bottom:-26px;
+    float:right;
+
 }
 
 .lp-pos-header-subtitle {
@@ -939,5 +1001,56 @@ hr.lp-header-divider {
 
     color: #89A58E;
     margin-bottom: 0px;
+
+.pool-days-selector {
+    float:right;
+    margin-right: 0px;
+    background-color: #000000;
+    color: #657b83;
+    #border: 0px solid #031116;
+    padding: 12px;
+    border-radius: 8px;
+    padding-left:0px;
+    padding-right:0px;
+
 }
-           
+
+
+.pool-days-unselected {
+    margin-left: 4px;
+    padding: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #000000;
+
+    font-family: monospace, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Revert/SemiGreen */
+
+    color: #89A58E;
+
+    opacity: 0.7;
+    text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
+
+}
+
+
+.pool-days-selected {
+    background-color: rgba(20, 244, 111, 0.15);
+    border: 1px solid #14F46F;
+
+    color: #14F46F;
+
+    opacity: 0.7;
+    text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
+
+}
+
+
+
