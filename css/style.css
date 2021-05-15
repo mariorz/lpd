@@ -416,6 +416,15 @@ div.bigneutral {color: rgb(255,255,255);
             text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
            }
 
+code.smallx {
+    font-size:16px;
+    color: white;
+    padding:2px;
+    margin-left: 4px;
+    border-radius: 2
+    margin-right:0px;
+
+}
 
 
 @keyframes flickerAnimation {

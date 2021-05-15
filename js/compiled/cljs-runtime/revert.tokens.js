@@ -1,13 +1,13 @@
 goog.provide('revert.tokens');
 revert.tokens.symbol__GT_price = (function revert$tokens$symbol__GT_price(symbol,token_infos,vs_price){
-try{return cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword(null,"prices","prices",970580849).cljs$core$IFn$_invoke$arity$1(cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__77156_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clojure.string.upper_case(symbol),clojure.string.upper_case(new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(p1__77156_SHARP_)));
+try{return cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword(null,"prices","prices",970580849).cljs$core$IFn$_invoke$arity$1(cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__163326_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(clojure.string.upper_case(symbol),clojure.string.upper_case(new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(p1__163326_SHARP_)));
 }),cljs.core.vals(token_infos)))),cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.lower_case(vs_price)),revert.utils.bn(0.0));
-}catch (e77163){if((e77163 instanceof Error)){
-var err = e77163;
+}catch (e163330){if((e163330 instanceof Error)){
+var err = e163330;
 return revert.utils.bn(0.0);
 } else {
-throw e77163;
+throw e163330;
 
 }
 }});
@@ -26,8 +26,8 @@ return token_address;
 });
 revert.tokens.rewards_in_currency = (function revert$tokens$rewards_in_currency(rewards,currency,token_prices){
 var rewarded_currencies = cljs.core.filter.cljs$core$IFn$_invoke$arity$2(cljs.core.some_QMARK_,cljs.core.keys(rewards));
-var res = ((cljs.core.empty_QMARK_(rewarded_currencies))?revert.utils.bn(0.0):cljs.core.reduce.cljs$core$IFn$_invoke$arity$2(bignumber.core._PLUS_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__77192_SHARP_){
-return bignumber.core._STAR_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(rewards,p1__77192_SHARP_),revert.tokens.symbol__GT_price(p1__77192_SHARP_,token_prices,currency));
+var res = ((cljs.core.empty_QMARK_(rewarded_currencies))?revert.utils.bn(0.0):cljs.core.reduce.cljs$core$IFn$_invoke$arity$2(bignumber.core._PLUS_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__163360_SHARP_){
+return bignumber.core._STAR_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(rewards,p1__163360_SHARP_),revert.tokens.symbol__GT_price(p1__163360_SHARP_,token_prices,currency));
 }),rewarded_currencies)));
 if(cljs.core.truth_(res.isNaN())){
 return revert.utils.bn(0.0);
