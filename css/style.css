@@ -1099,6 +1099,45 @@ hr.lp-header-divider {
 }
 
 
+.liquidity-actions {
+    float:left;
+    margin-right: 0px;
+    background-color: #000000;
+    color: #657b83;
+    #border: 0px solid #031116;
+    padding: 12px;
+    border-radius: 8px;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+
+
+a.liquidity-action:link, a.liquidity-action:visited {
+    margin-left: 4px;
+    padding: 12px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #000000;
+
+    font-family: monospace, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Revert/SemiGreen */
+
+    color:  #14F46F;
+
+    opacity: 0.7;
+    text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
+
+}
+
+
 .pool-days-selected {
     background-color: rgba(20, 244, 111, 0.15);
     border: 1px solid #14F46F;
@@ -1125,3 +1164,11 @@ hr.lp-header-divider {
     text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
 }
 
+
+
+#vg-tooltip-element  {
+    background-color: #031116;
+    color: #fff;
+    text-color: #000;
+
+}
