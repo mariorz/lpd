@@ -721,6 +721,13 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     overflow:hidden;
 }
 
+.lp-pos-info-segment34 {
+    width: 44%;
+    display: inline-block;
+    vertical-align:top;
+    overflow:hidden;
+}
+
 .lp-pos-info-segmenta {
     width: 50%;
     display: inline-block;
@@ -739,6 +746,21 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     float:right;
 
 }
+
+.lp-pos-info-segment_pool {
+    width: 59%;
+    display: inline-block;
+    vertical-align:top;
+    overflow:hidden;
+}
+
+.lp-pos-info-segment_total {
+    width: 41%;
+    display: inline-block;
+    vertical-align:top;
+    overflow:hidden;
+}
+
 
 .lp-pos-header-subtitle {
     font-family: Regio Mono, monospace;
