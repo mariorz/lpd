@@ -474,10 +474,18 @@ code.smallx {
 
 div.connect {
     float:right;
-    margin-top:10px;
+    margin-top:5px;
     margin-bottom:0px;
     color: #14F46F;
     margin-right:14px;
+}
+
+div.incentives {
+    float:right;
+    margin-top:12px;
+    margin-bottom:0px;
+    color: #14F46F;
+    margin-right:10px;
 }
 
 div.subtitle {
