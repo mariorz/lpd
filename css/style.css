@@ -1254,3 +1254,11 @@ a.liquidity-action:link, a.liquidity-action:visited {
     text-color: #000;
 
 }
+
+
+
+.alert-danger {
+    color: #fff;
+    background-color: red;
+    border-color: crimson;
+}
