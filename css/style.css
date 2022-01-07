@@ -267,6 +267,7 @@ table.styled-table td a {
     color: #89A58E;
 }
 
+
 table.top-positions tr:not(:first-child) td:nth-child(8) {
     padding:0;
     padding-left: 20px;
@@ -518,6 +519,7 @@ div.subtitle {
     left: 184px;
     top: 324px;*/
 
+
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: normal;
@@ -533,7 +535,8 @@ div.subtitle {
 }
 
 
-div.subtitle2 {
+
+div.subtitle2, span.subtitle2 {
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: normal;
@@ -1309,6 +1312,107 @@ a.liquidity-action:link, a.liquidity-action:visited {
 }
 
 
+.fee-tier-box {
+
+    padding: 16px;
+
+    background: #031116;
+    /* Revert/Dark */
+
+    border: 1px solid #031116;
+    box-sizing: border-box;
+    /* InputDark */
+
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+                -2px -2px 6px #1D3542,
+                inset -1px -1px 6px #143B49,
+                inset 2px 2px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 6px;
+    width:250px;
+}
+
+.fee-tier-link a:visited {
+    text-decoration: none;
+}
+.fee-tier-link a:active {
+    text-decoration: none;
+}
+.fee-tier-link a:hover {
+    text-decoration: none;
+}
+
+.fee-tier-link a:hover {
+    text-decoration: none;
+}
+
+.fee-tier-title {
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.005em;
+
+    /* semi */
+
+    color: rgba(232, 249, 238, 0.8);
+
+    text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
+    padding: 4px;
+
+}
+
+
+.fee-tier-subtitle {
+    padding:4px;
+    padding-bottom: 0px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: rgba(137, 165, 142, 0.8);
+}
+
+.fee-tier-value {
+    padding:4px;
+    padding-top: 1px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Revert/Light */
+
+    color: #E8F9EE;
+}
+
+
+.qty-input {
+
+    padding: 16px;
+    margin-top: 6px;
+    background: #031116;
+    /* Revert/Dark */
+
+    border: 1px solid #031116;
+    box-sizing: border-box;
+    /* InputDark */
+
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
+                -2px -2px 6px #1D3542,
+                inset -1px -1px 6px #143B49,
+                inset 2px 2px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 6px;
+}
+
+
+
 
 .alert-danger {
     color: #fff;
@@ -1328,3 +1432,4 @@ a.liquidity-action:link, a.liquidity-action:visited {
     flex-basis: 100%;
     height: 0;
 }
+
