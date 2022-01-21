@@ -267,7 +267,6 @@ table.styled-table td a {
     color: #89A58E;
 }
 
-
 table.top-positions tr:not(:first-child) td:nth-child(8) {
     padding:0;
     padding-left: 20px;
@@ -519,7 +518,6 @@ div.subtitle {
     left: 184px;
     top: 324px;*/
 
-
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: normal;
@@ -535,8 +533,7 @@ div.subtitle {
 }
 
 
-
-div.subtitle2, span.subtitle2 {
+div.subtitle2 {
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: normal;
@@ -698,10 +695,6 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     opacity: 1;
     text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
     text-decoration:none;
-}
-
-.margin-left-20 {
-    margin-left: 10px;
 }
 
 .lp-pos-header-tiny {
@@ -892,25 +885,9 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 
     color: #E8F9EE;
     text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.05);
+
+
 }
-
-.initiator-sparklines {
-    font-family: Regio Mono, monospace;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-
-    letter-spacing: 0.005em;
-
-    color: #E8F9EE;
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.05);
-    margin-top: -10px;
-}
-
-
-
 
 hr.lp-header-divider {
     border: none;
@@ -1332,141 +1309,6 @@ a.liquidity-action:link, a.liquidity-action:visited {
 }
 
 
-.fee-tier-box {
-
-    padding: 16px;
-
-    background: #031116;
-    /* Revert/Dark */
-
-    border: 1px solid #031116;
-    box-sizing: border-box;
-    /* InputDark */
-
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
-                -2px -2px 6px #1D3542,
-                inset -1px -1px 6px #143B49,
-                inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    border-radius: 6px;
-    width:235px;
-}
-
-.fee-tier-box-selected {
-
-    background: linear-gradient(180deg, #1E292D 0%, #031116 100%);
-    /* Revert/Green */
-
-    border: 1px solid #14F46F;
-    box-sizing: border-box;
-    box-shadow: 0px 8px 8px rgba(3, 17, 22, 0.5), 0px 4px 6px 1px rgba(20, 244, 111, 0.4), -2px -2px 6px #2C4737, inset 2px 2px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-.fee-tier-link a:visited {
-    text-decoration: none;
-}
-.fee-tier-link a:active {
-    text-decoration: none;
-}
-.fee-tier-link a:hover {
-    text-decoration: none;
-}
-
-.fee-tier-link a:hover {
-    text-decoration: none;
-}
-
-.fee-tier-title {
-
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 120% */
-
-    letter-spacing: 0.005em;
-
-    /* semi */
-
-    color: rgba(232, 249, 238, 0.8);
-    text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
-    padding: 4px;
-    padding-left: 0px;
-
-}
-
-.fee-tier-title-selected {
-    color: #14F46F;
-}
-
-
-.fee-tier-subtitle {
-    padding:4px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.005em;
-    color: rgba(137, 165, 142, 0.8);
-}
-
-.fee-tier-value {
-    padding:4px;
-    padding-top: 1px;
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 19px;
-
-    /* Revert/Light */
-
-    color: #E8F9EE;
-}
-
-
-.qty-input {
-
-    padding: 16px;
-    margin-top: 6px;
-    background: #031116;
-    /* Revert/Dark */
-
-    border: 1px solid #031116;
-    box-sizing: border-box;
-    /* InputDark */
-
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
-                -2px -2px 6px #1D3542,
-                inset -1px -1px 6px #143B49,
-                inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    border-radius: 6px;
-    /* gray/dark */
-
-    background: #031116;
-    /* gray/gray80 */
-
-    border: 1px solid #1A282D;
-    box-sizing: border-box;
-    /* InputDark */
-
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    font-family: monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    /* identical to box height, or 100% */
-
-    text-align: right;
-}
-
-
-
 
 .alert-danger {
     color: #fff;
@@ -1485,190 +1327,4 @@ a.liquidity-action:link, a.liquidity-action:visited {
 .break {
     flex-basis: 100%;
     height: 0;
-}
-
-.range-button-right {
-    color: #fff;
-    background: #121F23;
-    border: 1px solid #1A282D;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542;
-    border-radius: 0px 10px 10px 0px;
-    margin-top:0px;
-    padding: 6px;
-    width: 40px;
-    height: 40px;
-}
-
-.range-button-left {
-    color: #fff;
-    background: #121F23;
-    /* gray/gray80 */
-
-    border: 1px solid #1A282D;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542;
-    border-radius: 10px 0px 0px 10px;
-    margin-top:0px;
-    padding: 6px;
-    width: 40px;
-    height: 40px;
-}
-
-.price-input {
-    /* gray/dark */
-    padding: 19px;
-    margin-top: 0px;
-
-    background: #031116;
-    /* gray/gray80 */
-
-    border: 1px solid #1A282D;
-    box-sizing: border-box;
-    /* InputDark */
-
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    border-radius: 0px;
-
-    font-family: monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    /* identical to box height, or 100% */
-
-    text-align: right;
-}
-
-
-.initiator-subtitle {
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    /* identical to box height, or 144% */
-
-    letter-spacing: 0.005em;
-
-    /* gray/white */
-
-    color: #FFFFFF;
-}
-
-
-input[type=range] {
-  -webkit-appearance: none;
-  margin: 10px 0;
-  width: 100%;
-}
-input[type=range]:focus {
-  outline: none;
-}
-input[type=range]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 10px;
-  cursor: pointer;
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  background: #14F46F;
-  border-radius: 25px;
-  border: 0px solid #000101;
-}
-input[type=range]::-webkit-slider-thumb {
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 0px solid #000000;
-  height: 18px;
-  width: 39px;
-  border-radius: 7px;
-  background: #8EF0B6;
-  cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -3.6px;
-}
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #14F46F;
-}
-input[type=range]::-moz-range-track {
-  width: 100%;
-  height: 10px;
-  cursor: pointer;
-  animate: 0.2s;
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  background: #14F46F;
-  border-radius: 25px;
-  border: 0px solid #000101;
-}
-input[type=range]::-moz-range-thumb {
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 0px solid #000000;
-  height: 18px;
-  width: 39px;
-  border-radius: 7px;
-  background: #8EF0B6;
-  cursor: pointer;
-}
-input[type=range]::-ms-track {
-  width: 100%;
-  height: 10px;
-  cursor: pointer;
-  animate: 0.2s;
-  background: transparent;
-  border-color: transparent;
-  border-width: 39px 0;
-  color: transparent;
-
-}
-input[type=range]::-ms-fill-lower {
-    background: #14F46F;
-  border: 0px solid #000101;
-  border-radius: 50px;
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-}
-input[type=range]::-ms-fill-upper {
-    background: #14F46F;
-  border: 0px solid #000101;
-  border-radius: 50px;
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-}
-input[type=range]::-ms-thumb {
-  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
-  border: 0px solid #000000;
-  height: 18px;
-  width: 39px;
-  border-radius: 7px;
-  background: #8EF0B6;
-  cursor: pointer;
-}
-input[type=range]:focus::-ms-fill-lower {
-    background: #14F46F;
-}
-input[type=range]:focus::-ms-fill-upper {
-    background: #14F46F;
-}
-
-.initiator-slider {
-    border: 0px;
-}
-
-
-a.range-link {
-    color: #14F46F;
-    font-size: 16px;
-    margin-top: 14px;
-}
-
-
-.view-title {
-    font-family: Regio Mono, monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 32px;
-    /* identical to box height, or 145% */
-
-    letter-spacing: 0.005em;
-
-    color: #E8F9EE;
-
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
 }
