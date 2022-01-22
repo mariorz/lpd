@@ -700,6 +700,10 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     text-decoration:none;
 }
 
+.margin-top-6 {
+    margin-top: 6px;
+}
+
 .margin-left-20 {
     margin-left: 10px;
 }
