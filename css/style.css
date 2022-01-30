@@ -1353,6 +1353,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
                 inset 2px 2px 4px rgba(0, 0, 0, 0.45);
     border-radius: 6px;
     width:235px;
+    margin-top: 8px;
 }
 
 .fee-tier-box-selected {
@@ -1364,6 +1365,32 @@ a.liquidity-action:link, a.liquidity-action:visited {
     box-sizing: border-box;
     box-shadow: 0px 8px 8px rgba(3, 17, 22, 0.5), 0px 4px 6px 1px rgba(20, 244, 111, 0.4), -2px -2px 6px #2C4737, inset 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    margin-top: 4px;
+
+}
+
+.fee-tier-box-disabled {
+
+    /* gray/gray100 */
+
+    background: #06171E;
+    /* gray/gray80 */
+
+    border: 1px solid #1A282D;
+    border-radius: 10px;
+    box-shadow: none;
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+
+    /* gray/gray50 */
+
+    color: #6A8582;
+
 }
 
 .fee-tier-link a:visited {
@@ -1397,6 +1424,23 @@ a.liquidity-action:link, a.liquidity-action:visited {
     text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
     padding: 4px;
     padding-left: 0px;
+
+}
+
+.fee-tier-title-disabled {
+
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    /* gray/gray60 */
+
+    color: #475B60;
+
 
 }
 
@@ -1548,7 +1592,9 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 
 .initiator-subtitle {
-    font-family: monospace;
+    /* Body text/h2 - Medium header */
+
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -1557,9 +1603,38 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
     letter-spacing: 0.005em;
 
-    /* gray/white */
+    /* green/green30 */
 
-    color: #FFFFFF;
+    color: #4FF793;
+
+}
+
+.initiator-droptitle {
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 100% */
+
+
+    color: #D3E0D9;
+
+}
+
+.initiator-instruction {
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    letter-spacing: 0.005em;
+
+    /* gray/gray20 */
+
+    color: #B7CBC1;
 }
 
 .initiator-subititle-small {
@@ -1742,3 +1817,73 @@ a.range-link {
     background: #031116;
 }
 
+
+.run-backtester-button {
+
+    /* blue/blue80 */
+
+    background: #044A8A;
+    /* blue/blue60 */
+
+    border: 1px solid #077CE5;
+    border-radius: 10px;
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* gray/white */
+
+    color: #FFFFFF;
+}
+
+.run-backtester-button:hover {
+
+
+    background: #044A8A;
+
+    color: #FFF;
+}
+
+
+.initiator-button {
+    background: #14F46F;
+    /* green/green20 */
+
+    border: 1px solid #ADFFCE;
+    /* Action btn */
+
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65),
+                inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 0px #07903F;
+    border-radius: 10px;
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Revert/Dark */
+
+    color: #031116;
+
+    opacity: 1;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+}
+
+.initiator-button:hover {
+
+    background: #14F46F;
+    color: #031116;
+}
+
+.initiator-block {
+    margin: 6px 2px 2px 20px;
+}
