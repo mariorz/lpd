@@ -1897,11 +1897,3 @@ a.range-link {
     margin-top: 10px;
     margin-left: 0px;
 }
-
-
-.backtester-table-rows {
-
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
