@@ -1890,3 +1890,18 @@ a.range-link {
 .initiator-block {
     margin: 6px 2px 2px 20px;
 }
+
+.backtester-sparklines {
+    width: 240px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+.backtester-table-rows {
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
