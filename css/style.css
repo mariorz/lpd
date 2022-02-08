@@ -1514,6 +1514,11 @@ a.liquidity-action:link, a.liquidity-action:visited {
     color: #fff;
 }
 
+.qty-input.form-control[disabled] {
+    background-color: initial;
+    opacity: 0.5;
+}
+
 .red {
     color: rgb(255, 46, 96);
 }
