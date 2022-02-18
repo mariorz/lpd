@@ -2089,3 +2089,43 @@ a.range-link {
       font-family: monospace;
   }
 
+
+  .Toastify__toast-icon, .Toastify__close-button {
+      display: none;
+  }
+  .Toastify__toast {
+      border-radius: 10px;
+  }
+  .Toastify__toast--progress {
+    background-color: #0663B7;
+  }
+  .Toastify__toast--success {
+    background-color: #056C2F;
+  }
+  .Toastify__toast--error {
+    background-color: #B5002B;
+  }
+  .toast-message {
+      display: flex;
+      align-items: baseline;
+  }
+  .toast-message .subtitle {
+      font-size: 12px;
+  }
+  .toast-message span:first-child {
+    float: left;
+  }
+  .toast-message span:last-child {
+    float: right;
+  }
+  .toast-message .content {
+      margin-left: 10px;
+      flex-direction:column;
+      flex-grow: 1;
+  }
+  .toast-message i {
+    font-weight: bold;
+  }
+  .toast-message a {
+      color:white;
+  }
