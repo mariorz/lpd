@@ -2359,7 +2359,7 @@ a.range-link {
 
       /* Buttons text/Regular button */
 
-      font-family: 'monospace';
+      font-family: Regio Mono, monospace;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -2400,7 +2400,7 @@ a.range-link {
       border-radius: 5px;
 
 
-      font-family: 'monospace','Regio Mono';
+      font-family: Regio Mono, monospace;
       font-style: normal;
       font-weight: 600;
       font-size: 11px;
@@ -2425,7 +2425,7 @@ a.range-link {
 
 
   .neutral-compoundor {
-      font-family: 'Regio Mono', 'monospace';
+      font-family: Regio Mono, monospace;
       font-style: normal;
       font-weight: 600;
       font-size: 14px;
@@ -2445,7 +2445,7 @@ a.range-link {
 
   .comp-table-header
   {
-      font-family: 'Regio Mono', 'monospace';
+      font-family: Regio Mono, monospace;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
