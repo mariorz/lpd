@@ -458,7 +458,19 @@ div.bigneutral {color: rgb(255,255,255);
             /* text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35); */
             text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
            }
+.bigneutral {
 
+    color: rgb(255,255,255);
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    /* text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35); */
+
+}
 code.smallx {
     font-size:16px;
     color: white;
@@ -668,7 +680,7 @@ input:checked + .slider:before {
 }
 
 .lp-pos-header-segment-left {
-    width: 75%;
+    width: 85%;
     display: inline-block;
     vertical-align:top;
     margin-top:10px;
@@ -676,7 +688,7 @@ input:checked + .slider:before {
 
 
 .lp-pos-header-segment-right {
-    width: 25%;
+    width: 15%;
     display: inline-block;
     vertical-align:top;
     text-align: right;
@@ -1271,8 +1283,8 @@ a.liquidity-action:link, a.liquidity-action:visited {
     font-family: monospace, serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 10px;
     /* identical to box height */
 
 
@@ -1896,6 +1908,142 @@ a.range-link {
     color: #031116;
 }
 
+.autocompound-button {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+
+
+    width: 250px;
+    height: 48px;
+
+
+    /* green/green40 */
+
+    background: #14F46F;
+    /* green/green20 */
+
+    border: 1px solid #ADFFCE;
+    /* Action btn */
+
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 1px #07903F;
+    border-radius: 10px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    /* gray/dark */
+
+    color: #031116;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+.autocompound-button:hover {
+
+    background: #14F46F;
+    color: #031116;
+}
+
+.stop-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+
+  
+    width: 212px;
+    height: 48px;
+  
+    /* gray/gray100 */
+
+    background: #06171E;
+    /* red/red90 */
+
+    border: 1px solid #78001D;
+    border-radius: 10px;
+
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    /* red/red50 */
+
+    color: #FF517A;
+
+    
+}
+
+.stop-button:hover {
+
+    background: #06171E;
+    color: #FF517A;
+}
+
+.now-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+
+
+    width: 212px;
+    height: 48px;
+
+    /* gray/gray100 */
+
+    background: #06171E;
+    /* green/green80 */
+
+    border: 1px solid #056C2F;
+    border-radius: 10px;
+
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+
+    /* green/green60 */
+
+    color: #08B44E;
+
+
+}
+
+
+.now-button:hover {
+
+    background: #06171E;
+    color: #08B44E;
+}
+
 .initiator-block {
     margin: 6px 2px 2px 20px;
 }
@@ -2187,3 +2335,130 @@ a.range-link {
       margin-bottom: -24px !important;
   }
 
+
+  .action-button {
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 10px;
+      margin-right: 4px;
+
+      /* gray/gray90 */
+
+      background: #121F23;
+      /* green/green80 */
+
+      border: 1px solid #056C2F;
+      border-radius: 5px;
+
+
+      /* Buttons text/Regular button */
+
+      font-family: Regio Mono, monospace;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+
+      /* green/green40 */
+
+      color: #14F46F;
+  }
+
+
+  .autocomp-button {
+
+      text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
+  }
+
+  .action-button:hover {
+      text-decoration: none;
+      color: #14F46F;
+  }
+
+
+  .autocomp-label {
+      color: #fff;
+      background-color: #771FCA;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 3px 6px 2px;
+      gap: 10px;
+
+
+      /* purple/purple70 */
+      background: #771FCA;
+      border-radius: 5px;
+
+
+      font-family: Regio Mono, monospace;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      /* gray/white */
+      color: #FFFFFF;
+
+      text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+
+      background: linear-gradient(90deg, #E40AD0 0%, #0086FF 100%);
+      border-radius: 5px;
+  }
+
+
+
+  .neutral-compoundor {
+      font-family: Regio Mono, monospace;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+
+      /* identical to box height, or 157% */
+
+      /* gray/white */
+      color: #FFFFFF;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+  }
+
+  .comp-table-header
+  {
+      font-family: Regio Mono, monospace;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+
+      /* identical to box height, or 100% */
+
+      /* gray/gray40 */
+      color: #7C968D;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 4;
+      flex-grow: 0;
+  }
