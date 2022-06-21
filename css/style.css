@@ -2462,3 +2462,23 @@ a.range-link {
       order: 4;
       flex-grow: 0;
   }
+
+
+  .gas-price-header {
+      font-family: Regio Mono, monospace;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+
+      /* identical to box height, or 100% */
+
+      /* gray/gray40 */
+      color: #7C968D;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 4;
+      flex-grow: 0;
+  }
