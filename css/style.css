@@ -394,6 +394,25 @@ div.lp-inner-box {
 
 }
 
+div.lp-inner-box-optimal {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #031116;
+    color: #657b83;
+
+
+    box-sizing: border-box;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom:30px;
+    border-radius: 8px;
+
+    border: 1px solid #9228F3;
+    box-shadow: 2px 2px 8px #420C77, -2px -2px 6px #1D3542, inset -1px -1px 6px #420C77, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+
+}
+
 pre code {
     background-color: #031116;
 }
@@ -694,6 +713,25 @@ input:checked + .slider:before {
     text-align: right;
     margin-top:10px;
 }
+
+
+.lp-v3pos-header-segment-left {
+    width: 60%;
+    display: inline-block;
+    vertical-align:top;
+    margin-top:10px;
+}
+
+
+.lp-v3pos-header-segment-right {
+    width: 40%;
+    display: inline-block;
+    vertical-align:top;
+    text-align: right;
+    margin-top:10px;
+}
+
+
 
 a.lp-pos-link:link, a.lp-pos-link:visited {
     font-family: Regio Mono, monospace;
@@ -1918,8 +1956,6 @@ a.range-link {
     padding: 16px 24px;
 
 
-    width: 250px;
-    height: 48px;
 
 
     /* green/green40 */
@@ -1969,9 +2005,7 @@ a.range-link {
     padding: 16px 24px;
 
   
-    width: 212px;
-    height: 48px;
-  
+
     /* gray/gray100 */
 
     background: #06171E;
@@ -2010,8 +2044,6 @@ a.range-link {
     padding: 16px 24px;
 
 
-    width: 212px;
-    height: 48px;
 
     /* gray/gray100 */
 
@@ -2377,6 +2409,89 @@ a.range-link {
 
   }
 
+  .autocomp-optimal-button {
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 10px;
+
+
+
+      /* purple/purple100 */
+
+      background: #27034D;
+      /* purple/purple50 */
+
+      border: 1px solid #A646F9;
+      border-radius: 5px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 3;
+      flex-grow: 0;
+
+      font-family: monospace;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+
+      /* purple/purple30 */
+
+      color: #CE90FF;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  }
+
+
+  .autocomp-active-button {
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 10px;
+
+      font-family: monospace;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+
+
+      /* blue/blue100 */
+
+      background: #01192E;
+
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 3;
+      flex-grow: 0;
+      background: linear-gradient(#01192E, #01192E) padding-box,
+                  linear-gradient(90deg, #E40AD0 0%, #0086FF 100%) border-box;
+      border: 1px solid transparent;
+      border-radius:5px;
+
+  }
+
   .action-button:hover {
       text-decoration: none;
       color: #14F46F;
@@ -2399,7 +2514,71 @@ a.range-link {
 
   }
 
+  .autocomp-optimal-button:hover {
+      text-decoration: none;
+      color: #CE90FF;
+  }
+  .autocomp-optimal-button:focus {
+      text-decoration: none;
+      color: #CE90FF;
+  }
+  .autocomp-optimal-button:visited {
+      text-decoration: none;
+      color: #CE90FF;
+  }
 
+  .autocomp-active-button:hover {
+      text-decoration: none;
+      color: #CE90FF;
+  }
+  .autocomp-active-button:focus {
+      text-decoration: none;
+      color: #CE90FF;
+  }
+  .autocomp-active-button:visited {
+      text-decoration: none;
+      color: #CE90FF;
+  }
+
+
+
+  .optimal-for-autocomp-label {
+      color: #fff;
+      background-color: #771FCA;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 3px 6px 2px;
+      gap: 10px;
+
+
+      /* purple/purple70 */
+      background: #771FCA;
+      border-radius: 5px;
+
+
+      font-family: Regio Mono, monospace;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 13px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      /* gray/white */
+      color: #FFFFFF;
+
+      text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+
+
+      border-radius: 5px;
+  }
 
   .autocomp-label {
       color: #fff;
