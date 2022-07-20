@@ -27,14 +27,11 @@ audio:not([controls]) {
   display: none;
 }
 html {
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 body {
     margin: 0;
-
-
 }
 a:focus {
   outline: thin dotted;
@@ -60,12 +57,12 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, serif;
+  font-family: 'Regio Mono', monospace;
   font-size: 1em;
 }
 pre {
-    border: none;
-    background-color: #031116;
+  border: none;
+  background-color: #031116;
   white-space: pre-wrap;
   word-wrap: break-word;
   color: white;
@@ -111,7 +108,6 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
   font-size: 100%;
   margin: 0;
   border:1px solid #657b83;
@@ -332,7 +328,6 @@ div.app-inner {
     padding: 60px;
     padding-top:0px;
     padding-bottom:0px;
-    
 }
 
 
@@ -529,17 +524,10 @@ code.smallx {
 }
 
 div.connect {
-    float:right;
-    margin-top:5px;
-    margin-bottom:0px;
     color: #14F46F;
-    margin-right:14px;
 }
 
 div.incentives, div.top-positions {
-    float:right;
-    margin-top:12px;
-    margin-bottom:0px;
     color: #14F46F;
     margin-right:10px;
 }
@@ -1226,7 +1214,7 @@ hr.lp-header-divider {
     box-sizing: border-box;
     background-color: #000000;
 
-    font-family: monospace, serif;
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1265,7 +1253,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
     box-sizing: border-box;
     background-color: #000000;
 
-    font-family: monospace, serif;
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1318,7 +1306,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
     box-sizing: border-box;
     background-color: #000000;
 
-    font-family: monospace, serif;
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
@@ -1343,7 +1331,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
     box-sizing: border-box;
     background-color: #000000;
 
-    font-family: monospace, serif;
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1363,7 +1351,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 .pair-title {/* UNI/ETH */
 
-    font-family: monospace, serif;
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -2227,7 +2215,7 @@ a.range-link {
     border-radius: 8px;
     box-sizing: border-box;
     background-color: #000000;
-    font-family: monospace, serif;
+    font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
