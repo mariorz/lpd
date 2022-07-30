@@ -792,6 +792,13 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 
 }
 
+.lp-pos-info-segment1-og {
+    width: 20%;
+    display: inline-block;
+    vertical-align:top;
+
+}
+
 .lp-pos-info-segment1-last {
     width: auto;
     display: inline-block;
@@ -801,11 +808,21 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 }
 
 
+
 .lp-pos-info-segment2 {
     width: 15%;
     display: inline-block;
     vertical-align:top;
 }
+
+
+.lp-pos-info-segment2-og {
+    width: 24%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+
 
 .lp-pos-info-segment3 {
     width: 28%;
