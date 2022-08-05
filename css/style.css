@@ -303,7 +303,6 @@ div.outbox {
 
 }
 div.app {
-    background-color: #1E292D;
     margin: 0 auto;
     max-width: 1200px;
     border: 3px solid #212121;
@@ -316,11 +315,10 @@ div.app {
     left: 0px;
     top: 0px;
 
-    /* Revert/Dark */
-    #background: linear-gradient(180deg, #1E292D 0%, #031116 100%);
-    background-color: #0F1C20;
+    background: linear-gradient(180deg, #1E292D 0%, #031116 100%);
     border: 1px solid #485256;
     border-radius: 8px;
+    background-attachment:fixed;
 
 }
 
