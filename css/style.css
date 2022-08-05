@@ -1394,11 +1394,30 @@ a.liquidity-action:link, a.liquidity-action:visited {
     color: #FFFFFF;
 
     text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
-    
     white-space: nowrap;
     overflow: hidden;
 }
 
+
+.pair-title a {
+    color:white;
+    text-decoration: none;
+}
+
+
+.pair-title a:visited {
+    color:white;
+    text-decoration: underline;
+}
+.pair-title a:active {
+    text-decoration: underline;
+    color:white;
+}
+
+.pair-title a:hover {
+    text-decoration: underline;
+    color:white;
+}
 
 
 #vg-tooltip-element  {
