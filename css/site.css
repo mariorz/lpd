@@ -1327,6 +1327,11 @@ video {
           text-decoration-line: line-through;
 }
 
+.no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1570,4 +1575,14 @@ hr {
 .group:hover .group-hover\:text-green-20 {
   --tw-text-opacity: 1;
   color: rgb(173 255 206 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.group:hover .group-hover\:no-underline {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
