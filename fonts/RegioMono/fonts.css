@@ -16,7 +16,7 @@
 
 }
 @font-face {
-    font-family: 'regio_monomedium';
+    font-family: 'Regio Mono';
     src: url('regiomono-medium-font.woff2') format('woff2'),
          url('regiomono-medium-font.woff') format('woff');
     font-weight: 500;
@@ -24,7 +24,7 @@
 
 }
 @font-face {
-    font-family: 'regio_monosemi_bold';
+    font-family: 'Regio Mono';
     src: url('regiomono-semibold-font.woff2') format('woff2'),
          url('regiomono-semibold-font.woff') format('woff');
     font-weight: 600;

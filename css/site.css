@@ -641,6 +641,10 @@ video {
   top: 100%;
 }
 
+.float-right {
+  float: right;
+}
+
 .m-7 {
   margin: 1.75rem;
 }
@@ -690,6 +694,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -704,10 +712,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .mb-2 {
