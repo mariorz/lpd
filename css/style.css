@@ -32,6 +32,7 @@ html {
 }
 body {
     margin: 0;
+    padding: 0;
 }
 a:focus {
   outline: thin dotted;
@@ -229,13 +230,11 @@ html {
 }
 body {
     background-color: #031116;
-  margin: 0 auto;
-  #max-width: 23cm;
-  border: 0pt solid #212121;
-  padding: 1em;
-
-  #background: linear-gradient(180deg, rgba(30, 41, 45, 0.375) 0%, rgba(3, 17, 22, 0.25) 100%);
-
+    margin: 0 auto;
+    #max-width: 23cm;
+    border: 0pt solid #212121;
+    padding: 0;
+    #background: linear-gradient(180deg, rgba(30, 41, 45, 0.375) 0%, rgba(3, 17, 22, 0.25) 100%);
 }
 
 table.styled-table {
@@ -305,9 +304,6 @@ div.outbox {
 div.app {
     margin: 0 auto;
     max-width: 1200px;
-    border: 3px solid #212121;
-    padding-top: 14px;
-    border: 16px solid #031116;
     box-sizing: border-box;
 
     width: 1440px;
@@ -316,7 +312,8 @@ div.app {
     top: 0px;
 
     background: linear-gradient(180deg, #1E292D 0%, #031116 100%);
-    border: 1px solid #485256;
+    box-shadow: inset -1px -1px 2px rgba(12, 58, 74, 1), inset 1px 1px 2px rgba(255, 255, 255, 0.25);
+    border: none;
     border-radius: 8px;
     background-attachment:fixed;
 
@@ -324,16 +321,28 @@ div.app {
 
 div.app-inner {
     padding: 60px;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top:32px;
+    padding-bottom:32px;
 }
 
+.logotype{
+    height: 28px;
+    width: auto;
+    transition: all 0.3s ease-out 0.03s;
+}
+.logotype:hover{
+    filter: brightness(1.25);
+    transition: all 0.15s ease-in 0.03s;
+}
 
 hr.top-line {
     border: none;
     height: 1px;
     color: #14F46F; /* old IE */
     background: linear-gradient(90deg,#14F46F 0%, #1E292D 100%);
+    margin-bottom: 0px;
+    margin-top: 16px;
+    opacity: 0.5;
 }
 
 code {
@@ -341,7 +350,7 @@ code {
   padding: 2px;
 }
 a {
-    color:#657b83;
+    color:#14F46F;
   
 }
 a:visited {
@@ -956,7 +965,7 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 .lp-assets {
     font-family: Regio Mono, monospace;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
@@ -1225,7 +1234,6 @@ hr.lp-header-divider {
 }
 
 .pool-days-selector {
-    float:right;
     margin-right: 0px;
     background-color: #000000;
     color: #657b83;
@@ -1239,29 +1247,63 @@ hr.lp-header-divider {
 
 
 .pool-days-unselected {
+    display: flex;
+    align-items: center;
     margin-left: 4px;
-    padding: 12px;
+    padding:0px;
     border-radius: 8px;
     box-sizing: border-box;
-    background-color: #000000;
-
+    background-color: #121F23;
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
-
-
-    /* Revert/SemiGreen */
-
-    color: #89A58E;
-
-    opacity: 0.7;
-    text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
-
+    line-height: 14px;
+    color: #E7FFF1;
+    height: 28px;
+}
+.pool-days-unselected:hover{
+    transition: all 0.2s ease-out 0.03s;
+    background: #031116;
+    color: #ADFFCE;
+}
+.pool-days-unselected a{
+    font-family: 'Regio Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E7FFF1;
+    padding:2px 12px;
+}
+.pool-days-unselected:hover a{
+    color: #ADFFCE;
+    text-decoration: none !important;
 }
 
+.pool-days-selected {
+    background: #022410;
+    border: 1px solid #056C2F;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -2px -2px 4px #1D3542, inset -1px -1px 4px #143B49, inset 2px 2px 3px rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+    text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #14F46F;
+    text-shadow: 0px 0px 6px rgba(20, 244, 111, 0.4);
+    height: 28px;
+    padding:2px 12px;
+    cursor: default;
+    transition: all 0.2s ease-out 0.03s;
+}
+.pool-days-selected:hover {
+    background: #022410 !important;
+    border: 1px solid #056C2F !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -2px -2px 4px #1D3542, inset -1px -1px 4px #143B49, inset 2px 2px 3px rgba(0, 0, 0, 0.45) !important;
+    text-shadow: 0px 0px 6px rgba(20, 244, 111, 0.4); !important;
+    color: #14F46F !important;
+}
 
 .liquidity-actions {
     float:left;
@@ -1301,17 +1343,6 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 }
 
-
-.pool-days-selected {
-    background-color: rgba(20, 244, 111, 0.15);
-    border: 1px solid #14F46F;
-
-    color: #14F46F;
-
-    opacity: 0.7;
-    text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
-
-}
 
 .link-selected {
     font-weight: bold;

@@ -714,6 +714,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.-mb-4 {
+  margin-bottom: -1rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1162,12 +1170,12 @@ video {
   padding-right: 1.5rem;
 }
 
-.pb-\[1px\] {
-  padding-bottom: 1px;
+.pb-\[2px\] {
+  padding-bottom: 2px;
 }
 
-.pt-\[3px\] {
-  padding-top: 3px;
+.pt-\[2px\] {
+  padding-top: 2px;
 }
 
 .pl-4 {
