@@ -1226,6 +1226,60 @@ hr.lp-header-divider {
     transition: none;
 }
 
+.poolhistory-days-selector {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 2px;
+    width: auto;
+    float: right;
+    border-radius: 12px;
+    background: #121F23;
+}
+.poolhistory-days-selector span:first-of-type, .poolhistory-days-selector span:first-of-type a{ border-radius: 10px 0px 0px 10px; }
+.poolhistory-days-selector span:last-of-type, .poolhistory-days-selector span:last-of-type a{border-radius: 0px 10px 10px 0px;}
+.poolhistory-days-selector span.poolhistory-days-unactive {
+    font-family: 'Regio Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.poolhistory-days-selector span.poolhistory-days-active {
+    color: #14F46F;
+    background: #022410;
+    border: 1px solid #14F46F;
+    box-shadow: 0px 0px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 1px #07903F;
+    width: 52px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.poolhistory-days-selector span.poolhistory-days-unactive a{
+    color: #9BB0A7;
+    width: 52px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #031116;
+    transition: all 0.2s ease-out 0.03s;
+}
+.poolhistory-days-selector span.poolhistory-days-unactive a:hover{
+    color: #D3E0D9;
+    background: #39494E;
+    text-decoration: none;
+    transition: all 0.2s ease-out 0.03s;
+}
+
+
 .pool-days-unselected {
     display: flex;
     align-items: center;
@@ -2419,38 +2473,23 @@ a.range-link {
 
   .action-button {
       box-sizing: border-box;
-
-      /* Auto layout */
-
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 4px 10px;
+      padding: 4px 8px;
       margin-right: 4px;
-
-      /* gray/gray90 */
-
       background: #121F23;
-      /* green/green80 */
-
       border: 1px solid #056C2F;
       border-radius: 5px;
-
-
-      /* Buttons text/Regular button */
-
       font-family: Regio Mono, monospace;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 500;
       font-size: 14px;
       line-height: 17px;
-      /* identical to box height */
-
-
-      /* green/green40 */
-
       color: #14F46F;
+      height: 24px;
+      outline: #14F46F;
   }
 
 
