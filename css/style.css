@@ -268,7 +268,7 @@ table.styled-table td a {
 }
 
 
-table.top-positions tr:not(:first-child) td:nth-child(8) {
+table.top-positions tr:not(:first-child) td:nth-child(9) {
     padding:0;
     padding-left: 20px;
     width:300px;
@@ -3340,3 +3340,111 @@ a.range-link {
     font-size: 12px;
     line-height: 12px;
   }
+
+
+.pos-log table th{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #7C968D;
+}
+.pos-log .rewards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.pos-log .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #B7CBC1;
+    padding-bottom: 16px;
+}
+.pos-log .table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    border-top: solid 1px #39494E;
+}
+.pos-log .table-row .duration-data{
+    width: 124px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.pos-log .table-row .vesting-data{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #9BB0A7;
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    height: 40px;
+}
+.pos-log .table-row .rewards-data {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    height: 40px;
+}
+.pos-log .table-row .rewards-data .rwds-amount{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #D3E0D9;
+}
+.pos-log .table-row .rewards-data .rwds-usd{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    color: #9BB0A7;
+}
+.pos-log .table-row .token-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 88px;
+}
+.pos-log .table-row .apr-data{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 111px;
+    padding-right: 20px;
+}
+.pos-log .table-row .actions-btns{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #9BB0A7;
+    height: 40px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.pos-log .contract-link a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #14F46F;
+}
+
+
