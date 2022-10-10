@@ -3334,21 +3334,14 @@ a.range-link {
     box-shadow: 0px 0px 2px rgba(71, 91, 96, 0.7), 1px 2px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(71, 91, 96, 0.3), inset -1px -1px 1px #39494E;
   }
 
-  .top-pos-header { height: 44px;
+.top-pos-header { height: 44px;
     margin-top: 4px;
 }
-  .top-pos-header span, .top-pos-header a{
+.top-pos-header span, .top-pos-header a{
     font-size: 12px;
     line-height: 12px;
-  }
-
-
-.pos-log table th{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #7C968D;
 }
+
 .pos-log .rewards{
     display: flex;
     flex-direction: column;
@@ -3370,21 +3363,45 @@ a.range-link {
     justify-content: space-between;
     align-items: center;
     height: 52px;
-    border-top: solid 1px #39494E;
+    border: 1px solid #031116;
+    border-top: 1px solid #39494E;
+    transition: all 0.2s ease-out 0.03s;
+    margin-bottom: -1px;
+}
+.pos-log .table-row:hover{
+    background: #121F23;
+    border: 1px solid #39494E;
+    border-radius: 10px;
+    margin: 0 -12px -1px -12px;
+    padding: 0 12px;
+}
+
+.pos-log .table-row .poolname-data{
+    width: 180px;
+}
+.pos-log .table-row .poolname-data a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.pos-log .table-row .tvl-data{
+    width: 140px;
+    text-align: right;
 }
 .pos-log .table-row .duration-data{
-    width: 124px;
+    width: 128px;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    color: #FFFFFF;
+    color: #D3E0D9;
 }
 .pos-log .table-row .vesting-data{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     text-align: right;
-    color: #9BB0A7;
+    color: #D3E0D9;
     width: 112px;
     display: flex;
     flex-direction: column;
@@ -3393,7 +3410,7 @@ a.range-link {
     height: 40px;
 }
 .pos-log .table-row .rewards-data {
-    width: 160px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3406,6 +3423,10 @@ a.range-link {
     line-height: 14px;
     text-align: right;
     color: #D3E0D9;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    width: 100%;
 }
 .pos-log .table-row .rewards-data .rwds-usd{
     font-weight: 400;
@@ -3419,16 +3440,18 @@ a.range-link {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
-    width: 88px;
+    width: 104px;
+    margin-right: -16px;
+    margin-left: 6px;
 }
 .pos-log .table-row .apr-data{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
     text-align: right;
     color: #FFFFFF;
-    width: 111px;
-    padding-right: 20px;
+    width: 112px;
+    padding-right: 8px;
 }
 .pos-log .table-row .actions-btns{
     font-weight: 400;
