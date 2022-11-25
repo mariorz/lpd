@@ -1279,11 +1279,6 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
-    /* Revert/Green */
-
     color: #14F46F;
     opacity: 1;
     text-shadow: 0px 1px 6px #000000, 0px 0px 4px #000000;
@@ -1935,7 +1930,6 @@ a.liquidity-action:link, a.liquidity-action:visited {
     border-radius: 8px;
     box-sizing: border-box;
     background-color: #000000;
-
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: 600;
@@ -3013,26 +3007,77 @@ a.range-link {
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
-      line-height: 17px;
+      line-height: 14px;
       color: #14F46F;
       height: 24px;
       outline: #14F46F;
       outline: none !important;
+      transition: all 0.2s ease-out 0.03s;
   }
-  .action-button:disabled{
+  .action-button:hover{
+    background: #03481F;
+    border: 1px solid #07903F;
+    color: #4FF793;
+  }
+  .action-button-active{
+    background: #14F46F;
+    border: 1px solid #ADFFCE;
+    color: #031116 !important;
+  }
+  .action-button-active:hover{
+    background: #14F46F;
+    border: 1px solid #ADFFCE;
+    color: #031116 !important;
+  }
+
+
+  .rewards-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    margin-right: 4px;
+    background: #292B00;
+    border: 1px solid #BBC60C;
+    border-radius: 5px;
+    font-family: Regio Mono, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #D9E41A;
+    height: 24px;
+    outline: #14F46F;
+    outline: none !important;
+}
+.rewards-button:hover {
+    background: #3E4207;
+    border: 1px solid #FFFFB8;
+    color:#FFFFB8;
+}
+.rewards-button-active{
+    background: #D9E41A;
+    border: 1px solid #FFFFB8;
+    color: #031116;
+}
+.rewards-button-active:hover{
+    background: #D9E41A;
+    border: 1px solid #FFFFB8;
+    color: #031116;
+}
+
+.action-button:disabled, .rewards-button:disabled{
     background: #121F23;
     border: 1px solid #1A282D;
     border-radius: 5px;
     color: #6A8582;
     opacity: 0.7;
-  }
 
+}
 
-  .autocomp-button {
-
-  }
-
-  .autocomp-optimal-button {
+.autocomp-optimal-button {
       box-sizing: border-box;
       display: flex;
       flex-direction: row;
@@ -3046,13 +3091,31 @@ a.range-link {
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
-      line-height: 17px;
+      line-height: 14px;
       color: #CE90FF;
       outline: none !important;
   }
 
+.autocomp-optimal-button:hover {
+    text-decoration: none;
+    background: #420C77;
+    border: 1px solid #BA64FF;
+    color: #E0B8FF;
+}
 
-  .autocomp-active-button {
+.autocomp-optimal-button-active {
+    background: #CE90FF;
+    border: 1px solid #E0B8FF;
+    color: #031116;
+}
+.autocomp-optimal-button-active:hover {
+    background: #CE90FF;
+    border: 1px solid #E0B8FF;
+    color: #031116;
+}
+
+
+.autocomp-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -3063,70 +3126,38 @@ a.range-link {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 14px;
     background: linear-gradient(#01192E, #01192E) padding-box, linear-gradient(90deg, #E40AD0 0%, #0086FF 100%) border-box;
     border: 1px solid transparent;
     border-radius:5px;
     color: #7CBEFB;
     outline: none !important;
+}
+
+.autocomp-button-active {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    font-family: 'Regio Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    background: linear-gradient(90deg, #F399EB 0%, #86C6FF 100%);
+    border: 1px solid #E7FFF1;
+    border-radius:5px;
+    color: #031116;
+    outline: none !important;
   }
 
-  .action-button:hover {
-      text-decoration: none;
-      color: #14F46F;
-      text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
-  }
-  .action-button:focus {
-      text-decoration: none;
-      color: #14F46F;
-      text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
-  }
-  .action-button:hover {
-      text-decoration: none;
-      color: #14F46F;
-      text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
-  }
-
-  .action-button:visited {
-      text-decoration: none;
-      color: #14F46F;
-
-  }
-
-  .autocomp-optimal-button:hover {
-      text-decoration: none;
-      color: #D3E9FE;
-      background: #03315C;
-  }
-  .autocomp-optimal-button:focus {
-      text-decoration: none;
-      color: #D3E9FE;
-      background: #03315C;
-  }
-  .autocomp-optimal-button:visited {
-      text-decoration: none;
-      color: #D3E9FE;
-  }
-
-  .autocomp-active-button:hover {
-      text-decoration: none;
-      color: #D3E9FE;
-      background: #03315C;
-      background: linear-gradient(#01192E, #01192E) padding-box, linear-gradient(90deg, #E40AD0 0%, #0086FF 100%) border-box;
-      border: 1px solid transparent;
-  }
-  .autocomp-active-button:focus {
-      text-decoration: none;
-      color: #D3E9FE;
-      background: #03315C;
-      background: linear-gradient(#01192E, #01192E) padding-box, linear-gradient(90deg, #E40AD0 0%, #0086FF 100%) border-box;
-      border: 1px solid transparent;
-  }
-  .autocomp-active-button:visited {
-      text-decoration: none;
-  }
-
-
+.autocomp-button-active:hover {
+    background: linear-gradient(90deg, #F399EB 0%, #86C6FF 100%);
+    border: 1px solid #E7FFF1;
+    color: #031116;
+}
 
   .optimal-for-autocomp-label {
       color: #fff;

@@ -761,6 +761,14 @@ video {
   margin-bottom: 0.5rem !important;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .-mr-4 {
   margin-right: -1rem;
 }
@@ -787,10 +795,6 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .mb-4 {
@@ -957,6 +961,10 @@ video {
 
 .w-44 {
   width: 11rem;
+}
+
+.w-\[860px\] {
+  width: 860px;
 }
 
 .w-\[104px\] {
