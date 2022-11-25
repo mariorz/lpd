@@ -3577,7 +3577,22 @@ a.range-link {
     color: #000;
 }
 
-
+.table-row .preparing {
+    background:#CE90FF;
+    color: #031116;
+}
+.table-row .upcoming {
+    background: #BBC60C;
+    color: #031116;
+}
+.table-row .claimed{
+    background: #7C968D;
+    color: #031116;
+}
+.table-row .claimable{
+    background:  #14F46F;
+    color: #000;
+}
 
 .v3-opp {
     padding: 12px 16px 12px 24px;
