@@ -6078,7 +6078,7 @@ button.close {
 }
 .tooltip-inner {
   max-width: 200px;
-  padding: 3px 8px;
+  padding: 0px;
   color: #fff;
   text-align: center;
   background-color: #000;
@@ -6202,7 +6202,7 @@ button.close {
   border-radius: 5px 5px 0 0;
 }
 .popover-content {
-  padding: 9px 14px;
+  padding: 20px;
 }
 .popover > .arrow,
 .popover > .arrow:after {

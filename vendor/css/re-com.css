@@ -34,7 +34,11 @@ html, body {
 ----------------------------------------------------------------------------------------*/
 
 .popover, .tooltip {
-    font-family: Segoe UI, Roboto, sans-serif;
+  font-family: 'Regio Mono', monospace;
+  border-radius: 10px !important;
+  background-color: #121F23 !important;
+  width: auto !important;
+  max-width: none !important;
 }
 
 .popover-title {
@@ -43,6 +47,10 @@ html, body {
 
 .form-control-feedback {
     pointer-events: initial;
+}
+
+.popover svg polyline{
+  fill: #121F23 !important;
 }
 
 
@@ -343,7 +351,7 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  color: #333333;
+  color: #121F23;
   cursor: default;
   line-height: 13px;
   margin: 6px 0 3px 5px;
@@ -647,7 +655,7 @@ html, body {
 .datepicker th.day-enabled, label.day-enabled {
     font-weight: normal;
     font-size: 10px;
-    color: #333;
+    color: #121F23;
 }
 
 .datepicker th.selectable {
@@ -1172,13 +1180,52 @@ code {
     fill:  #2962ff;
 }
 
+.popover-content{
+  padding: 12px 16px 12px 8px !important;
+  box-shadow: 0px 0px 8px 1px rgb(3 17 22 / 70%);
+  border-radius: 10px;
+  width: auto;
+}
+
 .popover-content .info-heading {
-    font-size: 22px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding: 0px 0px 0px 8px;
+    max-width: 320px;
 }
 
 .popover-content .info-subheading {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 8px;
+    padding: 0px 0px 0px 8px;
+    max-width: 320px;
+}
+
+.popover-content .info-content {
+  font-size: 14px;
+  color: #D3E0D9;
+  font-weight: 400;
+  padding: 0px 0px 0px 8px;
+  max-width: 320px;
+}
+
+.popover-content .info-content-small {
+  font-size: 14px;
+  color: #D3E0D9;
+  font-weight: 400;
+  padding: 0px 0px 0px 8px;
+  max-width: 260px;
+}
+
+.popover-content .info-content-centered {
+  font-size: 14px;
+  color: #D3E0D9;
+  font-weight: 400;
+  padding: 0px 0px 0px 8px;
+  max-width: 320px;
+  text-align: center !important;
 }
 
 .popover-content .info-bold {
@@ -1195,8 +1242,12 @@ code {
 
 .popover-content code {
     color: white;
-    background-color: #555;
+    background-color: #39494E;
     border: none;
+    padding: 4px 8px;
+    line-height: 22px;
+    font-size: 14px;
+    max-width: 320px;
 }
 
 /*----------------------------------------------------------------------------------------
@@ -1205,7 +1256,7 @@ code {
 
 .rc-row-button {
     text-align:          center;             /* to horizontally center the icon */
-    color:               #2167f2; /2196f3;
+    color:               #2167f2;
     background-color:    inherit;
     opacity:             0;
     cursor:              pointer;

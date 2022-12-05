@@ -1336,7 +1336,8 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     width: auto;
     display: inline-block;
     vertical-align:top;
-
+    color:#D3E0D9;
+    font-family: 'Regio Mono', monospace;
 }
 
 .lp-pos-info-segment1-og {
@@ -1350,7 +1351,8 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     width: auto;
     display: inline-block;
     vertical-align:top;
-
+    color:#D3E0D9;
+    font-family: 'Regio Mono', monospace;
     margin-right:40px;
 }
 
@@ -1761,17 +1763,12 @@ hr.lp-header-divider {
 }
 
 .gloss-word {
-    color: #89A58E;
+    color: #D3E0D9;
     font-family: Regio Mono, monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 18px;
-    /* identical to box height, or 171% */
-
-    letter-spacing: 0.005em;
-
-    color: #89A58E;
+    line-height: 22px;
     margin-bottom: 0px;
 }
 
@@ -3083,7 +3080,7 @@ a.range-link {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 4px 10px;
+      padding: 4px 8px;
       background: #27034D;
       border: 1px solid #A646F9;
       border-radius: 5px;
@@ -3121,7 +3118,7 @@ a.range-link {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 4px 10px;
+    padding: 4px 8px;
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 500;
@@ -3140,7 +3137,7 @@ a.range-link {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 4px 10px;
+    padding: 4px 8px;
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 500;
@@ -3669,3 +3666,17 @@ h2.incentive-title{
     width: 532px;
 }
 
+.third-advice{
+    height: 80px;
+    width: 354px;
+}
+
+.rc-info-button-icon {
+    background: transparent;
+  }
+.rc-info-button-icon circle{
+    fill: #39494E;
+}
+.rc-info-button-icon circle:last-of-type{
+    fill: #FFFFFF !important;
+}
