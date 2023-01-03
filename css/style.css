@@ -1,6 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Inconsolata);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 article,
 aside,
 details,
@@ -213,23 +210,6 @@ table {
   border-spacing: 0;
 }
 html {
-  font-family: 'Inconsolata', sans-serif;
-}
-pre,
-code {
-  font-family: 'Inconsolata', sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Inconsolata', sans-serif;
-    
-}
-html {
-  
   color: #657b83;
   margin: 1em;
   background-color: #031116;
@@ -308,7 +288,6 @@ div.app {
     box-shadow: inset -1px -1px 2px rgba(12, 58, 74, 1), inset 1px 1px 2px rgba(255, 255, 255, 0.25);
     border: none;
     border-radius: 8px;
-    background-attachment:fixed;
     height: calc(100vh - 32px);
     overflow-y: scroll;
     overflow-x: hidden;
@@ -479,6 +458,7 @@ div.pos {color: #ADFFCE;}
 .hero-section{
     height: calc(100vh - 140px);
     max-height: 940px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2557,11 +2537,7 @@ a.range-link {
 
 .initiator-button {
     background: #14F46F;
-    /* green/green20 */
-
     border: 1px solid #ADFFCE;
-    /* Action btn */
-
     box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65),
                 inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 0px #07903F;
     border-radius: 10px;
@@ -2570,20 +2546,9 @@ a.range-link {
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-
-    /* Revert/Dark */
-
     color: #031116;
-
     opacity: 1;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 0px 0px;
-
 }
 
 .initiator-button:hover {
@@ -2655,46 +2620,6 @@ a.range-link {
 
     background: #06171E;
     color: #FF517A;
-}
-
-.now-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 24px;
-
-
-
-    /* gray/gray100 */
-
-    background: #06171E;
-    /* green/green80 */
-
-    border: 1px solid #056C2F;
-    border-radius: 10px;
-
-
-    font-family: monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    /* identical to box height, or 100% */
-
-
-    /* green/green60 */
-
-    color: #08B44E;
-
-
-}
-
-
-.now-button:hover {
-
-    background: #06171E;
-    color: #08B44E;
 }
 
 .initiator-block {
@@ -2989,7 +2914,7 @@ a.range-link {
   }
 
 
-  .action-button {
+  .option-button {
       box-sizing: border-box;
       display: flex;
       flex-direction: row;
@@ -3007,21 +2932,20 @@ a.range-link {
       line-height: 14px;
       color: #14F46F;
       height: 24px;
-      outline: #14F46F;
       outline: none !important;
       transition: all 0.2s ease-out 0.03s;
   }
-  .action-button:hover{
+  .option-button:hover{
     background: #03481F;
     border: 1px solid #07903F;
     color: #4FF793;
   }
-  .action-button-active{
+  .option-button-active{
     background: #14F46F;
     border: 1px solid #ADFFCE;
     color: #031116 !important;
   }
-  .action-button-active:hover{
+  .option-button-active:hover{
     background: #14F46F;
     border: 1px solid #ADFFCE;
     color: #031116 !important;
@@ -3046,7 +2970,6 @@ a.range-link {
     line-height: 14px;
     color: #D9E41A;
     height: 24px;
-    outline: #14F46F;
     outline: none !important;
 }
 .rewards-button:hover {
@@ -3065,7 +2988,7 @@ a.range-link {
     color: #031116;
 }
 
-.action-button:disabled, .rewards-button:disabled{
+.option-button:disabled, .rewards-button:disabled{
     background: #121F23;
     border: 1px solid #1A282D;
     border-radius: 5px;
@@ -3680,3 +3603,136 @@ h2.incentive-title{
 .rc-info-button-icon circle:last-of-type{
     fill: #FFFFFF !important;
 }
+
+.action-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    height: 48px;
+    background: #14F46F;
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 1px #07903F, inset 1px 1px 1px #ADFFCE;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #031116;
+    transform: translateY(0px);
+    transition: all 0.2s ease-out 0.03s;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: 0px solid transparent !important;
+}
+
+.action-button:hover{
+    transition: all 0.3s ease-out 0.03s;
+    background: #4FF793;
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 1px #07903F, inset 1px 1px 1px #ADFFCE;
+}
+.action-button:active{
+    outline:0px solid transparent;
+    outline-offset: 0px;
+    opacity: 0.8;
+    transform: scale(0.975);
+}
+.action-button:focus, .action-button:active{
+    outline:0px solid transparent;
+    outline-offset: 0px;
+}
+ .action-button:focus-visible{
+    outline: 2px solid #B7CBC1 !important;
+    outline-offset: 4px;
+}
+
+.action-button:disabled{
+    background: #121F23;
+    border: 1px solid #1A282D;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #6A8582;
+}
+
+
+.now-button {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    margin: 0px !important;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #8B44E;
+}
+input.now-button::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: linear-gradient(#14F46F, #14F46F) no-repeat #121F23;
+    background-size: 100% 100%; /* Change to 0% 100% when the script works*/
+    border: none;
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 0px #07903F;
+    border-radius: 5px;
+  }
+input.now-button[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: linear-gradient(#14F46F, #14F46F) no-repeat #121F23;
+    background-size: 100% 100%; /* Change to 0% 100% when the script works*/
+    border: none;
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 0px #07903F;
+    border-radius: 5px;
+  }
+input.now-button[type=range]:focus::-webkit-slider-runnable-track {
+    background: #14F46F;
+}
+input.now-buttonn:hover {
+    background: #06171E;
+    color: #08B44E;
+}
+
+input.now-button[type=range]::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    background: #03481F;
+    border: 1px solid #ADFFCE;
+    box-shadow: 0px 0px 4px rgba(20, 244, 111, 0.3), 2px 2px 4px #1D3542;
+    border-radius: 5px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    margin-top:-5px;
+    background-image: url(../assets/slider_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+input.now-button[type=range]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #03481F !important;
+    border: 1px solid #ADFFCE;
+    box-shadow: 0px 0px 4px rgba(20, 244, 111, 0.3), 2px 2px 4px #1D3542;
+    border-radius: 5px;
+    appearance: none;
+    background: #8EF0B6;
+    cursor: pointer;
+    background-image: url(../assets/slider_bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  button{
+    outline: none;
+  }
