@@ -1920,8 +1920,8 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 
 .link-selected {
-    font-weight: bold;
-    text-decoration: underline;
+    text-decoration: underline !important;
+    color:#FFFFFF;
 }
 
 .button-selected {
@@ -3353,13 +3353,21 @@ a.range-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 12px;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #B7CBC1;
     padding-bottom: 16px;
 }
+.table-header a{
+    color: #B7CBC1;
+    text-decoration: none;
+}
+.table-header a:hover{
+    color: #B7CBC1;
+    text-decoration: underline;
+}
+
 .table-row {
     display: flex;
     justify-content: space-between;
@@ -3378,27 +3386,39 @@ a.range-link {
     padding: 0 12px;
 }
 
-.pos-log .table-row .poolname-data{
+.table-row .nft-data{
+    width:68px;
+    text-align: left;
+}
+.table-row .pnl-data{
+    width:112px;
+    text-align: right;
+}
+.table-row .owner-data{
+    width: 110px;
+}
+
+.table-row .poolname-data{
     width: 180px;
 }
-.pos-log .table-row .poolname-data a{
+.table-row .poolname-data a{
     font-weight: 500;
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
 }
-.pos-log .table-row .tvl-data{
-    width: 140px;
+.table-row .tvl-data{
+    width: 120px;
     text-align: right;
 }
-.pos-log .table-row .duration-data{
-    width: 128px;
+.table-row .duration-data{
+    width: 132px;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #D3E0D9;
 }
-.pos-log .table-row .vesting-data{
+.table-row .vesting-data{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -3411,7 +3431,20 @@ a.range-link {
     align-items:flex-end;
     height: 40px;
 }
-.pos-log .table-row .rewards-data {
+.table-row .positionage-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #D3E0D9;
+    width: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    height: 40px;
+}
+.table-row .rewards-data {
     width: 180px;
     display: flex;
     flex-direction: column;
@@ -3419,7 +3452,7 @@ a.range-link {
     align-items:flex-end;
     height: 40px;
 }
-.pos-log .table-row .rewards-data .rwds-amount{
+.table-row .rewards-data .rwds-amount{
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
@@ -3430,14 +3463,14 @@ a.range-link {
     overflow: hidden;
     width: 100%;
 }
-.pos-log .table-row .rewards-data .rwds-usd{
+.table-row .rewards-data .rwds-usd{
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     text-align: right;
     color: #9BB0A7;
 }
-.pos-log .table-row .token-data{
+.table-row .token-data{
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -3446,7 +3479,7 @@ a.range-link {
     margin-right: -16px;
     margin-left: 6px;
 }
-.pos-log .table-row .apr-data{
+.table-row .apr-data{
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
@@ -3455,7 +3488,23 @@ a.range-link {
     width: 112px;
     padding-right: 8px;
 }
-.pos-log .table-row .actions-btns{
+.table-row .apr2-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 84px;
+}
+.table-row .posvalue-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 128px;
+}
+.table-row .actions-btns{
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
@@ -3466,7 +3515,7 @@ a.range-link {
     justify-content: center;
     align-items: center;
 }
-.pos-log .contract-link a{
+.contract-link a{
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
