@@ -3711,17 +3711,18 @@ h2.incentive-title{
 .now-button {
     -webkit-appearance: none !important;
     appearance: none !important;
-    display: flex !important;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    margin: 6px 0px !important;
+    padding: 16px 24px;
+    margin: 0px !important;
     background: none;
     border: none;
     border-radius: 10px;
     font-size: 16px;
     line-height: 16px;
+    color: #8B44E;
 }
 input.now-button::-webkit-slider-runnable-track {
     width: 100%;
