@@ -302,7 +302,7 @@ div.app-inner {
     z-index: -1;
 }
 .navbar{
-    border-radius: 6px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     padding-top: 14px;
     background: linear-gradient(180deg, #1E292D 0vh, #031116 100vh);
     position: sticky;
@@ -345,7 +345,7 @@ div.app-inner {
 }
 
 .logotype{
-    height: 28px;
+    height: 16px;
     width: auto;
     transition: all 0.2s ease-out 0.03s;
 }
@@ -1408,13 +1408,11 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 
 .lp-pos-info-segmenta {
     width: 50%;
-    display: inline-block;
     vertical-align:top;
 }
 
 .lp-pos-info-segmentb {
     width: 50%;
-    display: inline-block;
     vertical-align:top;
 }
 
@@ -1457,7 +1455,7 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 }
 
 .lp-pos-info-segment-header-row {
-    width: 280px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     vertical-align:top;
@@ -1503,8 +1501,6 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     font-size: 14px;
     line-height: 22px;
 }
-
-
 
 .lp-title {
     font-family: 'Regio Mono', monospace;
@@ -2966,11 +2962,13 @@ a.range-link {
       height: 24px;
       outline: none !important;
       transition: all 0.2s ease-out 0.03s;
+      text-decoration: none;
   }
   .option-button:hover{
     background: #03481F;
     border: 1px solid #07903F;
     color: #4FF793;
+    text-decoration: none;
   }
   .option-button-active{
     background: #14F46F;
@@ -2981,6 +2979,7 @@ a.range-link {
     background: #14F46F;
     border: 1px solid #ADFFCE;
     color: #031116 !important;
+    text-decoration: none;
   }
 
 
@@ -3404,7 +3403,7 @@ a.range-link {
 .table-header .owner-header{ width:110px; height: 24px; }
 .table-header .positionage-header{ width: 92px; height: 24px; }
 .table-header .range-header{ width:260px; height: 24px; }
-.table-header .datetime-header{ width: 220px; height: 24px; }
+.table-header .datetime-header{ width: 228px; height: 24px; }
 .table-header .type-header{ width: 132px; height: 24px; }
 .table-header .refvalue-header{ width: 112px; height: 24px; }
 .table-header .token0-header, .table-header .token1-header{ width: 172px; height: 24px; }
@@ -3558,7 +3557,7 @@ a.range-link {
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
-    width: 220px;
+    width: 228px;
 }
 .table-row .type-data{
     font-weight: 400;
@@ -3891,6 +3890,23 @@ input.now-button[type=range]::-moz-range-thumb {
   .op-container{
     width: 100%;
   }
+  .pos-log-type{
+    background-color: #1A282D;
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: #E7FFF1;
+    font-family: 'Regio Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .backtester-table .amount{
+    font-family: 'Regio Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+  }
  
 
   @media only screen and (max-width: 768px) {
@@ -3986,8 +4002,8 @@ input.now-button[type=range]::-moz-range-thumb {
         min-height:unset;
     }
     .navbar .top-line{  margin-top: 8px; }
-    .navbar .menu{  padding: 0px 8px 0px 12px; height: 32px; }
-    .navbar .logotype{  height: 24px; }
+    .navbar .menu{  padding: 0px 6px 0px 16px; height: 32px; }
+    .navbar .logotype{  height: 14px; }
 
     .app .app-inner{
         padding-top: 20px;
@@ -4372,7 +4388,6 @@ input.now-button[type=range]::-moz-range-thumb {
     .lp-pos-info-segment34{
         width: calc(100% + 58px);
         order: -1;
-        min-width: none;
         max-width: none;
     }
 
@@ -4403,7 +4418,7 @@ input.now-button[type=range]::-moz-range-thumb {
         height: fit-content;
     }
     .show-charts{  margin-left: calc(-100% - 32px); }
-    .h-zero { height: 600px; }
+    .h-zero { height: 200px; }
 
     .option-open { margin-top: 32px;}
 
@@ -4524,12 +4539,9 @@ input.now-button[type=range]::-moz-range-thumb {
     }
 
     div.pool-days-selected, div.pool-days-unselected, div.pool-days-unselected:last-of-type{
-        height: 40px;
+        height: 32px;
     }
 
-    .op-container{
-
-    }
     .content-incentives{
         margin: 0 -12px;
         width: calc(100% + 24px);
@@ -4552,6 +4564,17 @@ input.now-button[type=range]::-moz-range-thumb {
     h2.incentive-title{
         font-size: 16px;
         line-height: 24px;
+    }
+    .autocomp-optimal-button{
+        height: 32px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .lp-inner-box .pos-log{
+        width: 100%;
+    }
+    .lp-pos-assets-cutted{
+        max-width: 50%;
     }
 
   }

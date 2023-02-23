@@ -848,6 +848,14 @@ video {
   margin-right: -1rem;
 }
 
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .mb-1\.5 {
   margin-bottom: 0.375rem;
 }
@@ -874,14 +882,6 @@ video {
 
 .mt-2\.5 {
   margin-top: 0.625rem;
-}
-
-.mt-0\.5 {
-  margin-top: 0.125rem;
-}
-
-.mr-1 {
-  margin-right: 0.25rem;
 }
 
 .ml-1\.5 {
@@ -1335,6 +1335,10 @@ video {
   justify-content: flex-end;
 }
 
+.\!justify-end {
+  justify-content: flex-end !important;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -1377,6 +1381,16 @@ video {
 
 .gap-y-2 {
   row-gap: 0.5rem;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
 }
 
 .gap-y-3 {
@@ -2585,6 +2599,10 @@ hr {
     margin-left: 0.5rem;
   }
 
+  .md\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -2607,10 +2625,6 @@ hr {
 
   .md\:mb-2 {
     margin-bottom: 0.5rem;
-  }
-
-  .md\:mr-10 {
-    margin-right: 2.5rem;
   }
 
   .md\:ml-8 {
@@ -2707,6 +2721,16 @@ hr {
     width: 7rem;
   }
 
+  .md\:w-\[640px\] {
+    width: 640px;
+  }
+
+  .md\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .md\:\!w-\[592px\] {
     width: 592px !important;
   }
@@ -2717,12 +2741,6 @@ hr {
 
   .md\:w-\[584px\] {
     width: 584px;
-  }
-
-  .md\:w-fit {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
   }
 
   .md\:w-\[200px\] {
@@ -2739,10 +2757,6 @@ hr {
 
   .md\:w-40 {
     width: 10rem;
-  }
-
-  .md\:w-\[640px\] {
-    width: 640px;
   }
 
   .md\:w-\[60px\] {
@@ -2801,12 +2815,12 @@ hr {
     gap: 1.25rem;
   }
 
-  .md\:gap-8 {
-    gap: 2rem;
-  }
-
   .md\:gap-0 {
     gap: 0px;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
   }
 
   .md\:gap-x-8 {
@@ -2821,6 +2835,11 @@ hr {
   .md\:gap-x-5 {
     -moz-column-gap: 1.25rem;
          column-gap: 1.25rem;
+  }
+
+  .md\:gap-x-2 {
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
   }
 
   .md\:overflow-visible {
