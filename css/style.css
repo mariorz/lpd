@@ -46,6 +46,7 @@ a:focus {
 a:active,
 a:hover {
   outline: 0;
+  cursor: pointer;
 }
 h1 {
   font-size: 2em;
@@ -65,14 +66,16 @@ kbd,
 pre,
 samp {
   font-family: 'Regio Mono', monospace;
-  font-size: 1em;
+  font-size: 14px;
 }
 pre {
   border: none;
-  background-color: #031116;
+  background-color: transparent;
   white-space: pre-wrap;
   word-wrap: break-word;
   color: white;
+  padding: 0 !important;
+  margin: 24px 0px;
 }
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
@@ -129,10 +132,7 @@ input {
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
+input[type="submit"] { cursor: pointer; }
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -174,7 +174,7 @@ input.connect {
     -webkit-box-sizing: border-box;
 
 
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -210,8 +210,7 @@ table {
   border-spacing: 0;
 }
 html {
-  color: #657b83;
-  margin: 1em;
+  margin: 16px;
   background-color: #031116;
   
 }
@@ -310,9 +309,11 @@ div.app-inner {
     top: 0px;
     z-index: 10;
     width: 100%;
-    margin: 0 auto;
+    height: 60px;
+    margin-bottom: 0px;
     box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.25);
     border: none;
+    z-index: 15;
 }
 .navbar .menu{
     padding: 0px;
@@ -396,13 +397,12 @@ div.inner-box {
     background-color: #031116;
     color: #657b83;
     box-sizing: border-box;
-    padding: 20px 32px;
+    padding: 4px 32px 20px 32px;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
 div.lp-inner-box {
-    margin-top: 20px;
     margin-bottom: 20px;
     background-color: #031116;
     color: #657b83;
@@ -414,19 +414,14 @@ div.lp-inner-box {
 }
 
 div.lp-inner-box-optimal {
-    margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     background-color: #031116;
     color: #657b83;
     box-sizing: border-box;
-    padding: 30px;
-    padding-top: 24px;
-    padding-bottom:24px;
-    border-radius: 8px;
+    padding: 24px 32px;
+    border-radius: 10px;
     border: 1px solid #9228F3;
     box-shadow: 2px 2px 8px #420C77, -2px -2px 6px #1D3542, inset -1px -1px 6px #420C77, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    border-radius: 10px;
-
 }
 
 pre code {
@@ -978,41 +973,29 @@ div.bigneg {
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 div.bigpos {    
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 20px;
     color: #ADFFCE;
 
 }
 
-div.bigneutral {
+div.bigneutral, .bigneutral {
     color: #FFFFFF;
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 32px;
- }
-.bigneutral {
-
-    color: #FFFFFF;
-    font-family: Regio Mono, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 20px;
-    /* identical to box height, or 133% */
-    /* text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35); */
+ }
 
-}
 code.smallx {
     font-size:16px;
     color: white;
@@ -1055,10 +1038,6 @@ div.connect {
     color: #14F46F;
 }
 
-div.incentives, div.top-positions {
-    color: #14F46F;
-    margin-right:8px;
-}
 h1.title {
     font-family: 'Regio Mono', monospace;
     font-style: normal;
@@ -1070,7 +1049,7 @@ h1.title {
     text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
 }
 
-div.subtitle {
+div.subtitle, span.subtitle {
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 400;
@@ -1078,8 +1057,6 @@ div.subtitle {
     line-height: 26px;
     color: #ADFFCE;
     margin-left: 32px;
-    margin-bottom: 4px;
-    display: inline-block;
 }
 
 
@@ -1091,28 +1068,20 @@ div.subtitle2, span.subtitle2 {
     font-size: 12px;
     line-height: 12px;
     color: #B7CBC1;
-    margin-bottom: 6px;
 }
 
 .subtitle3 {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 18px;
-    /* identical to box height, or 133% */
-
-    letter-spacing: 0.055em;
-
-    color: #E8F9EE;
-    margin-bottom:8px;
-    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
-
+    line-height: 14px;
+    color:  #B7CBC1;
 }
 
 
 .pos-log {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1120,8 +1089,29 @@ div.subtitle2, span.subtitle2 {
     color: #E8F9EE;
     margin-bottom:8px;
     margin-top:20px;
+    width: 100%;
 }
 .pos-log p, .pos-log .initiator-instruction{
+    font-family: 'Regio Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #B7CBC1;
+}
+
+.option-open {
+    margin-bottom:8px;
+    margin-top:20px;
+    width: 100%;
+    font-family: 'Regio Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E8F9EE;
+}
+.option-open p, .option-open .initiator-instruction{
     font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 400;
@@ -1147,8 +1137,8 @@ pos-log.a :link {
 .switch {
     position: relative;
     display: inline-block;
-    width: 30px;
-    height: 17px;
+    width: 32px;
+    height: 16px;
 }
 
 /* Hide default HTML checkbox */
@@ -1166,21 +1156,23 @@ pos-log.a :link {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: black;
+    background: #121F23;
+    border: 1px solid #475B60;
     -webkit-transition: .4s;
-    transition: .4s;
+    transition: all .3s ease-out;
 }
 
 .slider:before {
     position: absolute;
     content: "";
-    height: 13px;
-    width: 13px;
-    left: 2px;
-    bottom: 2px;
+    height: 16px;
+    width: 16px;
+    left: -1px;
+    bottom: -1px;
     background-color: white;
     -webkit-transition: .4s;
-    transition: .4s;
+    transition: all .3s ease-out;
+    box-shadow: none;
 }
 
 input:checked + .slider {
@@ -1190,11 +1182,16 @@ input:checked + .slider {
 input:focus + .slider {
     box-shadow: 0 0 1px #14F46F;
 }
-
+input:checked + .slider{
+    background: #022410;
+    border: 1px solid #056C2F;
+}
 input:checked + .slider:before {
-    -webkit-transform: translateX(13px);
-    -ms-transform: translateX(13px);
-    transform: translateX(13px);
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+    background: #4FF793;
+    box-shadow: 0px 0px 4px rgba(10, 216, 94, 0.7), 3px 5px 6px #000000, inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 1px #07903F;
 }
 
 /* Rounded sliders */
@@ -1211,11 +1208,11 @@ input:checked + .slider:before {
 
 
 .lp-pos-header {
-    display: inline-block;
+    display: flex;
     width: 100%;
-    height:100%;
-    vertical-align:top;
+    height: fit-content;
     transition: all 0.5s ease-out;
+    justify-content: space-between;
 }
 
 .lp-pos-header-segment-left {
@@ -1234,27 +1231,47 @@ input:checked + .slider:before {
     margin-top:10px;
 }
 
-
-.lp-v3pos-header-segment-left {
-    width: 60%;
+.lp-pos-menu {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    transition: all 0.5s ease-out;
+    justify-content: space-between;
+}
+.lp-pos-menu-segment-left {
+    width: 85%;
     display: inline-block;
     vertical-align:top;
     margin-top:10px;
 }
-
-
-.lp-v3pos-header-segment-right {
-    width: 40%;
+.lp-pos-menu-segment-right {
+    width: 15%;
     display: inline-block;
     vertical-align:top;
     text-align: right;
     margin-top:10px;
 }
 
+.lp-v3pos-header-segment-left {
+    width: auto;
+    display: flex;
+}
+.lp-v3pos-header-segment-right {
+    width: auto;
+    display: flex;
+}
+.lp-v3pos-menu-segment-left {
+    width: auto;
+    display: flex;
+}
+.lp-v3pos-menu-segment-right {
+    width: auto;
+    display: flex;
+}
 
 
 a.lp-pos-link:link, a.lp-pos-link:visited {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1367,18 +1384,26 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 
 }
 
+.lp-pos-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 20px;
+}
 .lp-pos-info-segment12 {
-    width: 56%;
-    display: inline-block;
+    width: auto;
+    display: flex;
     vertical-align:top;
     overflow:hidden;
 }
-
 .lp-pos-info-segment34 {
-    width: 44%;
-    display: inline-block;
+    max-width: 440px;
+    width: 100%;
+    display: flex;
     vertical-align:top;
     overflow:hidden;
+    flex-wrap: wrap;
 }
 
 .lp-pos-info-segmenta {
@@ -1401,10 +1426,21 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 }
 
 .lp-pos-info-segment_pool {
-    width: 59%;
-    display: inline-block;
+    width: 100%;
+    display: flex;
     vertical-align:top;
     overflow:hidden;
+    flex-wrap: wrap;
+    row-gap: 16px;
+}
+.lp-pos-info-segment_pool > div:nth-child(even){
+    width: 180px;
+}
+.lp-pos-info-segment_pool > div:nth-child(odd){
+    width: 260px;
+}
+.lp-pos-info-segment_pool .rc-point-wrapper{
+    align-items: flex-start !important;
 }
 
 .lp-pos-info-segment_total {
@@ -1412,6 +1448,12 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     display: inline-block;
     vertical-align:top;
     overflow:hidden;
+}
+.lp-pos-info-segment_pool .break{
+    width: 0px;
+    height: 0px;
+    flex-basis:0px;
+    display: none;
 }
 
 .lp-pos-info-segment-header-row {
@@ -1424,7 +1466,7 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 
 
 .lp-pos-header-subtitle {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -1446,27 +1488,26 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 
 
 .lp-pos-subtitle {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #B7CBC1;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .lp-pos-assets {
-    margin-top:0px;
-    margin-bottom:16px;
     font-family: 'Regio Mono', monospace;
     font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 22px;
 }
 
+
+
 .lp-title {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -1477,38 +1518,43 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
 }
 
 .lp-assets {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
     color: #E8F9EE;
+    display: flex;
+    flex-direction: column;
 }
 
 .initiator-sparklines {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
-
-    letter-spacing: 0.005em;
-
     color: #E8F9EE;
     text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.05);
-    margin-top: -10px;
 }
 
 
 
+
+hr.lp-header-divider-expand {
+    border: none;
+    height: 1px;
+    background: rgba(232, 249, 238, 0.1);
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
 
 hr.lp-header-divider {
     border: none;
     height: 1px;
     background: rgba(232, 249, 238, 0.1);
-    margin-top: 10px;
-    margin-bottom: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
 
 
@@ -1520,7 +1566,7 @@ hr.lp-header-divider {
 
 }
 .landing-banner {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 28px;
@@ -1559,7 +1605,7 @@ hr.lp-header-divider {
 }
 
 .footer-logo {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
@@ -1586,7 +1632,7 @@ hr.lp-header-divider {
 }
 
 .footer-text-right {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -1608,32 +1654,26 @@ hr.lp-header-divider {
 }
 
 .landing-go-button {
-    #display: flex;
+    /* #display: flex;
     #flex-direction: row;
     #justify-content: center;
     #align-items: center;
-    #padding: 12px;
+    #padding: 12px; */
 
-    #position: absolute;
+    /* #position: absolute; */
     width: 52px;
     height: 58px;
-    #left: 623px;
+    /*#left: 623px;
     #top: 416px;
     #padding-top: 10px;
-    #padding-bottom: 18px;
-
-    /* Revert/Green */
-
+    #padding-bottom: 18px;*/
     background: #14F46F;
-    #border: 1px solid #8EF0B6;
+    /* #border: 1px solid #8EF0B6; */
     box-sizing: border-box;
-    /* GreenBtn */
-
-    #box-shadow: -2px -2px 6px rgba(20, 244, 111, 0.3), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(50, 148, 90, 0.3), inset -1px -1px 0px #12E166;
+    /* #box-shadow: -2px -2px 6px rgba(20, 244, 111, 0.3), 3px 5px 8px rgba(0, 0, 0, 0.65), inset 2px 2px 2px rgba(50, 148, 90, 0.3), inset -1px -1px 0px #12E166; */
     border-radius: 0px 8px 8px 0px;
     color: #031116;
-
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -1644,13 +1684,10 @@ hr.lp-header-divider {
 }
 .landing-input {
     background: #031116;
-    /* Revert/Dark */
-
     border: 0px solid #031116;
     box-sizing: border-box;
-    /* InputDark */
     height:60px;
-    #box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
+    /* #box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45); */
     border-radius: 8px 0px 0px 8px;
     padding: 10px;
     padding-top: 0px;
@@ -1664,20 +1701,20 @@ hr.lp-header-divider {
     width:100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
-    #display: flex;
+    /*#display: flex;
     #flex-direction:row-reverse;
-    #justify-content: flex-end; 
+    #justify-content: flex-end; */
 }
 
 .modal-main {
-    #position:relative;
+    /* position:relative; */
     background: white;
     width: 350px;
     height: 250px;
-    #display: inline-block;
+    /* #display: inline-block;
     #top:200px;
     #left:800px;
-    #transform: translate(-50%,-50%);
+    #transform: translate(-50%,-50%); */
     position: absolute;
     left: 50%;
     top: 30%; 
@@ -1714,7 +1751,7 @@ hr.lp-header-divider {
 
     display: list-item;
     display: block;
-    #height: 100px;
+    /* #height: 100px; */
     line-height: 75px;
 
 }
@@ -1733,7 +1770,7 @@ hr.lp-header-divider {
     padding-bottom:8px;
     color: white;
     width: 95%;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -1744,7 +1781,7 @@ hr.lp-header-divider {
 
 .gloss-word {
     color: #D3E0D9;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1776,8 +1813,8 @@ hr.lp-header-divider {
     align-items: flex-start;
     padding: 2px;
     gap: 2px;
-    width: auto;
-    float: right;
+    width: fit-content;
+    height: fit-content;
     border-radius: 12px;
     background: #121F23;
 }
@@ -1823,15 +1860,69 @@ hr.lp-header-divider {
 }
 
 
+.wallet-disconnect {
+    display: flex;
+    align-items: center;
+    padding:0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #121F23;
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgba(0,0,0,0);
+    justify-content: center;
+    transition: all 0.15s ease-out 0s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.wallet-disconnect:hover{
+    background: #78001D;
+    border: 1px solid #F1003A;
+    transition: all 0.15s ease-out 0.1s;
+    width: 128px;
+    cursor: pointer;
+}
+.wallet-disconnect a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 2px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.wallet-disconnect a img{ flex-shrink: 0;  cursor: pointer;}
+.wallet-disconnect:hover a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 2px 8px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+}
+.wallet-disconnect span{
+    width: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-out 0s;
+    font-family: 'Regio Mono', monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-left: 0px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.wallet-disconnect:hover span{ width: 84px; overflow: hidden;  transition: all 0.15s ease-out 0.1s; margin-left: 6px; flex-shrink: 0; }
+
 .pool-days-unselected {
     display: flex;
     align-items: center;
-    margin-left: 4px;
     padding:0px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-sizing: border-box;
     background-color: #121F23;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1840,6 +1931,7 @@ hr.lp-header-divider {
     height: 28px;
     border: 1px solid rgba(0,0,0,0);
 }
+div.pool-days-unselected:last-of-type{ margin-right: 0px; height: 32px;}
 .pool-days-unselected:hover{
     transition: all 0.2s ease-out 0.03s;
     background: #031116;
@@ -1907,7 +1999,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
     border-radius: 8px;
     box-sizing: border-box;
     background-color: #000000;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1943,7 +2035,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
     box-sizing: border-box;
     background-color: #000000;
 
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
@@ -1962,7 +2054,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
     box-sizing: border-box;
     background-color: #000000;
 
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -1982,7 +2074,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 .pair-title {/* UNI/ETH */
 
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -2024,60 +2116,47 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 
 .fee-tier-box {
-
-    padding: 16px;
-
+    padding: 12px 16px;
     background: #031116;
-    /* Revert/Dark */
-
-    border: 1px solid #031116;
+    border: 1px solid #1A282D;
     box-sizing: border-box;
-    /* InputDark */
-
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7),
-                -2px -2px 6px #1D3542,
-                inset -1px -1px 6px #143B49,
-                inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    border-radius: 6px;
-    width:235px;
-    margin-top: 8px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 236px;
+    transition: all 0.3s ease-out;
+    min-height: 258px;
 }
 
-.fee-tier-box-selected {
+.fee-tier-box:hover {
+    background: #121F23;
+    border: 1px solid #6A8582;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-out;
+    transform: translateY(-4px);
+}
 
+.fee-tier-box-selected, .fee-tier-box-selected:hover {
     background: linear-gradient(180deg, #1E292D 0%, #031116 100%);
-    /* Revert/Green */
-
     border: 1px solid #14F46F;
-    box-sizing: border-box;
     box-shadow: 0px 8px 8px rgba(3, 17, 22, 0.5), 0px 4px 6px 1px rgba(20, 244, 111, 0.4), -2px -2px 6px #2C4737, inset 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin-top: 4px;
-
+    transform: translateY(-4px);
+    transition: all 0.3s ease-out;
 }
 
-.fee-tier-box-disabled {
-
-    /* gray/gray100 */
-
+.fee-tier-box-disabled, .fee-tier-box-disabled:hover {
     background: #06171E;
-    /* gray/gray80 */
-
     border: 1px solid #1A282D;
     border-radius: 10px;
     box-shadow: none;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    /* or 157% */
-
-
-    /* gray/gray50 */
-
     color: #6A8582;
-
+    transform: none;
+    transition: none;
 }
 
 .fee-tier-link a:visited {
@@ -2096,27 +2175,20 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 .fee-tier-title {
 
-    font-family: monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 28px;
-    /* identical to box height, or 120% */
-
-    letter-spacing: 0.005em;
-
-    /* semi */
-
     color: rgba(232, 249, 238, 0.8);
     text-shadow: 0px 0px 8px rgba(20, 244, 111, 0.4);
-    padding: 4px;
-    padding-left: 0px;
+    margin-bottom: 8px;
 
 }
 
 .fee-tier-title-disabled {
 
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -2137,22 +2209,19 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 
 .fee-tier-subtitle {
-    padding:4px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-family: monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.005em;
-    color: rgba(137, 165, 142, 0.8);
+    font-size: 12px;
+    line-height: 12px;
+    color: #B7CBC1;
+    margin-bottom: 4px;
 }
 
 .fee-tier-value {
     padding:4px;
     padding-top: 1px;
-    font-family: monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -2234,10 +2303,9 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 .range-button-right {
     color: #fff;
-    background: #121F23;
-    border: 1px solid #1A282D;
+    background: #1A282D;
+    border: 1px solid #39494E;
     box-sizing: border-box;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542;
     border-radius: 0px 10px 10px 0px;
     margin-top:0px;
     padding: 6px;
@@ -2247,12 +2315,9 @@ a.liquidity-action:link, a.liquidity-action:visited {
 
 .range-button-left {
     color: #fff;
-    background: #121F23;
-    /* gray/gray80 */
-
-    border: 1px solid #1A282D;
+    background: #1A282D;
+    border: 1px solid #39494E;
     box-sizing: border-box;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542;
     border-radius: 10px 0px 0px 10px;
     margin-top:0px;
     padding: 6px;
@@ -2261,29 +2326,18 @@ a.liquidity-action:link, a.liquidity-action:visited {
 }
 
 .price-input {
-    /* gray/dark */
     padding: 19px;
-    margin-top: 0px;
-
-    background: #031116;
-    /* gray/gray80 */
-
     border: 1px solid #1A282D;
-    box-sizing: border-box;
-    /* InputDark */
-
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
-    border-radius: 0px;
-
-    font-family: monospace;
+    background: #031116;
+    border: 1px solid #475B60;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 18px;
-    /* identical to box height, or 100% */
-
     text-align: right;
     color: #fff;
+    border-radius: 0px;
 }
 
 
@@ -2298,7 +2352,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
 }
 
 .initiator-droptitle {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -2311,7 +2365,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
 }
 
 .initiator-instruction {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -2326,7 +2380,7 @@ a.liquidity-action:link, a.liquidity-action:visited {
 }
 
 .initiator-subititle-small {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -2435,13 +2489,11 @@ a.range-link {
     color: #14F46F;
     font-size: 16px;
     margin-top: 0px;
-    margin-bottom: 10px;
-
 }
 
 
 .view-title {
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
@@ -2458,45 +2510,30 @@ a.range-link {
 
 
 .tabs {
-    font-family: Regio Mono. monospace;
+    font-family: 'Regio Mono' monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 18px;
-    /* identical to box height, or 112% */
-
     text-align: center;
-
-    /* semi */
-
     color: rgba(232, 249, 238, 0.8);
     background: #031116;
-    /* Revert/Dark */
-
     border: 1px solid #031116;
     box-sizing: border-box;
-    /* InputDark */
-
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 6px #1D3542, inset -1px -1px 6px #143B49, inset 2px 2px 4px rgba(0, 0, 0, 0.45);
     border-radius: 6px;
-
 }
 
 
 .nav-pills > li.active > a {
     background-color: #14F46F !important;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
-    /* identical to box height, or 100% */
-
     text-align: center;
-
     color: #000000;
-
-
 }
 
 
@@ -2507,55 +2544,53 @@ a.range-link {
 
 
 .run-backtester-button {
-
-    /* blue/blue80 */
-
     background: #044A8A;
-    /* blue/blue60 */
-
     border: 1px solid #077CE5;
     border-radius: 10px;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-
-    /* gray/white */
-
     color: #FFFFFF;
 }
 
 .run-backtester-button:hover {
-
-
     background: #044A8A;
-
     color: #FFF;
 }
 
 
 .initiator-button {
     background: #14F46F;
-    border: 1px solid #ADFFCE;
-    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7), 3px 5px 8px rgba(0, 0, 0, 0.65),
-                inset 2px 2px 2px rgba(5, 108, 47, 0.3), inset -1px -1px 0px #07903F;
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7),
+                3px 5px 8px rgba(0, 0, 0, 0.65),
+                inset 2px 2px 2px rgba(5, 108, 47, 0.3),
+                inset -1px -1px 1px #07903F, inset 1px 1px 1px #ADFFCE;
     border-radius: 10px;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 16px;
     color: #031116;
-    opacity: 1;
-    margin: 0px 0px;
+    height: 48px;
+    padding: 16px 24px;
+    border:none;
+    transition: all 0.3s ease-out 0.03s;
+    transform: translateY(0px);
 }
 
 .initiator-button:hover {
-
-    background: #14F46F;
-    color: #031116;
+    background: #4FF793;
+    transform: translateY(-2px);
+    box-shadow: -1px -1px 6px rgba(10, 216, 94, 0.7),
+                3px 5px 8px rgba(0, 0, 0, 0.65),
+                inset 2px 2px 2px rgba(5, 108, 47, 0.3),
+                inset -1px -1px 1px #07903F,
+                inset 1px 1px 1px #ADFFCE;
 }
+
 
 .autocompound-button {
     box-sizing: border-box;
@@ -2575,12 +2610,15 @@ a.range-link {
     line-height: 16px;
     color: #031116;
 }
-
-
 .autocompound-button:hover {
-
     background: #14F46F;
     color: #031116;
+}
+.initiator-button:disabled, .autocompound-button:disabled{
+    background: #121F23;
+    border: 1px solid #1A282D;
+    border-radius: 10px;
+    color: #6A8582;
 }
 
 .stop-button {
@@ -2623,15 +2661,11 @@ a.range-link {
 }
 
 .initiator-block {
-    margin: 6px 2px 2px 20px;
+    margin: 0px;
+    display: flex;
 }
 
-.backtester-sparklines {
-    width: 240px;
-    margin-right: 40px;
-    margin-top: 10px;
-    margin-left: 0px;
-}
+.backtester-sparklines { width: 240px; }
 
 .noselect {
   -webkit-touch-callout: none;
@@ -2694,8 +2728,6 @@ a.range-link {
   -webkit-transition: left 400ms cubic-bezier(0.68, -0.3, 0.265, 1.3) 0s;
   -moz-transition: left 400ms cubic-bezier(0.68, -0.3, 0.265, 1.3) 0s;
   transition: left 400ms cubic-bezier(0.68, -0.3, 0.265, 1.3) 0s;
-}
-.switch-select input[type="checkbox"] {
 }
 .switch-select input[type="checkbox"]:checked + label {
   background: #E1E5Eb;
@@ -2773,7 +2805,7 @@ a.range-link {
     border-radius: 8px;
     box-sizing: border-box;
     background-color: #000000;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -2925,7 +2957,7 @@ a.range-link {
       background: #121F23;
       border: 1px solid #056C2F;
       border-radius: 5px;
-      font-family: Regio Mono, monospace;
+      font-family: 'Regio Mono', monospace;
       font-style: normal;
       font-weight: 500;
       font-size: 14px;
@@ -2963,7 +2995,7 @@ a.range-link {
     background: #292B00;
     border: 1px solid #BBC60C;
     border-radius: 5px;
-    font-family: Regio Mono, monospace;
+    font-family: 'Regio Mono', monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -3052,6 +3084,12 @@ a.range-link {
     border-radius:5px;
     color: #7CBEFB;
     outline: none !important;
+    transition: all 0.2s ease-out 0.03s;
+}
+.autocomp-button:hover {
+    background: linear-gradient(#03315C, #03315C) padding-box, linear-gradient(90deg, #E40AD0 0%, #0086FF 100%) border-box;
+    color: #D3E9FE;
+    transition: all 0.2s ease-out 0.03s;
 }
 
 .autocomp-button-active {
@@ -3071,12 +3109,14 @@ a.range-link {
     border-radius:5px;
     color: #031116;
     outline: none !important;
+    transition: all 0.2s ease-out 0.03s;
   }
 
 .autocomp-button-active:hover {
     background: linear-gradient(90deg, #F399EB 0%, #86C6FF 100%);
     border: 1px solid #E7FFF1;
     color: #031116;
+    transition: all 0.2s ease-out 0.03s;
 }
 
   .optimal-for-autocomp-label {
@@ -3095,7 +3135,7 @@ a.range-link {
       border-radius: 5px;
 
 
-      font-family: Regio Mono, monospace;
+      font-family: 'Regio Mono', monospace;
       font-style: normal;
       font-weight: 600;
       font-size: 11px;
@@ -3133,7 +3173,7 @@ a.range-link {
       border-radius: 5px;
 
 
-      font-family: Regio Mono, monospace;
+      font-family: 'Regio Mono', monospace;
       font-style: normal;
       font-weight: 600;
       font-size: 11px;
@@ -3161,7 +3201,7 @@ a.range-link {
       align-items: flex-start;
       padding: 3px 6px 2px;
       gap: 10px;
-      font-family: Regio Mono, monospace;
+      font-family: 'Regio Mono', monospace;
       font-style: normal;
       font-weight: 600;
       font-size: 11px;
@@ -3174,25 +3214,13 @@ a.range-link {
       border-radius: 5px;
   }
 
-
-
   .neutral-compoundor {
-      font-family: Regio Mono, monospace;
+      font-family: 'Regio Mono', monospace;
       font-style: normal;
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 22px;
-
-      /* identical to box height, or 157% */
-
-      /* gray/white */
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
       color: #FFFFFF;
-
-
-      /* Inside auto layout */
-      flex: none;
-      order: 1;
-      flex-grow: 0;
   }
 
   .comp-table-header{
@@ -3204,9 +3232,8 @@ a.range-link {
         color: #B7CBC1;
   }
 
-
   .gas-price-header {
-      font-family: Regio Mono, monospace;
+      font-family: 'Regio Mono', monospace;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -3223,13 +3250,13 @@ a.range-link {
       align-items: center;
       padding: 0px 8px 1px;
       gap: 8px;
-      margin-top: 10px;
+      margin-top: 8px;
       margin-bottom: -10px;
       width: 150px;
-      height: 17px;
+      height: 20px;
       background: #9BB0A7;
       box-shadow: 0px 0px 4px #06171E;
-      border-radius: 5px 5px 0px 0px;
+      border-radius: 5px;
       z-index: 2;
       font-family: 'Regio Mono', monospace;
       font-style: normal;
@@ -3238,12 +3265,8 @@ a.range-link {
       line-height: 12px;
       color: #031116;
       transition: all 0.2s ease-out;
-
       background: #F2FF00;
       box-shadow: 0px 0px 4px rgba(242, 255, 0, 0.65);
-      border-radius: 5px 5px 5px 0px;
-
-
   }
   .opps-button:hover {
       text-decoration: none;
@@ -3273,13 +3296,12 @@ a.range-link {
       align-items: center;
       padding: 0px 8px 1px;
       gap: 8px;
-      margin-top: 10px;
+      margin-top: 8px;
       margin-bottom: -10px;
-      width: 78px;
-      height: 17px;
-      background: #9BB0A7;
-      box-shadow: 0px 0px 4px #06171E;
-      border-radius: 5px 5px 0px 0px;
+      width: fit-content;
+      height: 20px;
+      background: #B7CBC1;
+      border-radius: 5px;
       z-index: 2;
       font-family: 'Regio Mono', monospace;
       font-style: normal;
@@ -3287,12 +3309,11 @@ a.range-link {
       font-size: 12px;
       line-height: 12px;
       color: #031116;
-        transition: all 0.2s ease-out;
+      transition: all 0.3s ease-out;
   }
 
   .collapse-button {
-      width: 88px;
-      transition: all 0.2s ease-out;
+      transition: all 0.3s ease-out;
   }
 
   .expand-button:hover {
@@ -3357,26 +3378,48 @@ a.range-link {
     font-size: 12px;
     line-height: 12px;
     color: #B7CBC1;
-    padding-bottom: 16px;
 }
 .table-header a{
     color: #B7CBC1;
     text-decoration: none;
 }
+.header-sticky-zero{ top: 0px; position: sticky; }
+.header-sticky-72{ top: 72px; position: sticky;}
+
 .table-header a:hover{
     color: #B7CBC1;
     text-decoration: underline;
 }
+.table-header .poolname-header{ width: 180px; height: 24px; }
+.table-header .duration-header{ width: 132px; height: 24px; }
+.table-header .vesting-header{ width: 112px; height: 24px; }
+.table-header .tvl-header{ width: 120px; height: 24px; }
+.table-header .rewards-header{ width: 180px; height: 24px; }
+.table-header .token-header{ width: 104px; height: 24px; }
+.table-header .apr-header{ width: 112px; height: 24px; }
+.table-header .nft-header{ width: 68px; height: 24px; }
+.table-header .pnl-header { width: 112px; height: 24px; }
+.table-header .apr2-header{ width: 94px; height: 24px; }
+.table-header .posvalue-header{ width: 128px; height: 24px; }
+.table-header .owner-header{ width:110px; height: 24px; }
+.table-header .positionage-header{ width: 92px; height: 24px; }
+.table-header .range-header{ width:260px; height: 24px; }
+.table-header .datetime-header{ width: 220px; height: 24px; }
+.table-header .type-header{ width: 132px; height: 24px; }
+.table-header .refvalue-header{ width: 112px; height: 24px; }
+.table-header .token0-header, .table-header .token1-header{ width: 172px; height: 24px; }
 
 .table-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 56px;
+    height: 60px;
     border: 1px solid #031116;
     border-top: 1px solid #39494E;
     transition: all 0.2s ease-out 0.03s;
     margin-bottom: -1px;
+    z-index: 10;
+    position: relative;
 }
 .table-row:hover{
     background: #121F23;
@@ -3406,6 +3449,12 @@ a.range-link {
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
+}
+.table-row .poolname-data .poolname-name{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .table-row .tvl-data{
     width: 120px;
@@ -3494,7 +3543,7 @@ a.range-link {
     line-height: 14px;
     text-align: right;
     color: #FFFFFF;
-    width: 84px;
+    width: 94px;
 }
 .table-row .posvalue-data{
     font-weight: 400;
@@ -3504,6 +3553,39 @@ a.range-link {
     color: #FFFFFF;
     width: 128px;
 }
+.table-row .datetime-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 220px;
+}
+.table-row .type-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 132px;
+}
+.table-row .refvalue-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 112px;
+    text-align: right;
+}
+.table-row .token0-data, .table-row .token1-data{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    width: 172px;
+    text-align: right;
+}
+
+
+
 .table-row .actions-btns{
     font-weight: 400;
     font-size: 12px;
@@ -3593,6 +3675,10 @@ a.range-link {
 }
 .hero-optimism{
     border-bottom: 5px solid #80000E;
+    background-image: url(../assets/OP_bannerx2.png);
+    background-size: cover;
+    width: 1084px;
+    height: 400px;
 }
 .content-incentives {
     background: #031116;
@@ -3606,14 +3692,13 @@ a.range-link {
     flex-direction: column;
     align-items: flex-start;
     padding: 20px 24px;
-    gap: 20px;
+    gap: 8px;
     width: 1020px;
-    height: 176px;
+    height: auto;
     background: #06171E;
     border: 1px solid #39494E;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-
 }
 
 h2.subtitle{
@@ -3783,4 +3868,690 @@ input.now-button[type=range]::-moz-range-thumb {
 
   button{
     outline: none;
+  }
+
+  .advices-bann { width: 1084px; }
+
+
+  .no-visible-mobile{  display: flex; }
+  .no-visible-desktop{  display: none; }
+
+  .status-control, .charts-control, .lp-pos-mobile-controls {
+    display: none;
+  }
+
+  .currency-subindex{
+    font-family: 'Regio Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #B7CBC1;
+  }
+  .op-container{
+    width: 100%;
+  }
+ 
+
+  @media only screen and (max-width: 768px) {
+
+    html{
+        color: #657b83;
+        margin: 4px;
+        background-color: #031116;
+    }
+    .no-visible-mobile{  display: none; }
+    .no-visible-desktop{  display: flex; }
+
+    pre { font-size: 12px;}
+
+    /* Switches */
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+    }
+    /* The slider */
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #121F23;
+        border: 1px solid #475B60;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: -1px;
+        bottom: -1px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+    input:checked + .slider {
+        background: #022410;
+        border: 1px solid #056C2F;
+    }
+
+    input:focus + .slider {
+        box-shadow: 0 0 1px #14F46F;
+    }
+
+    input:checked + .slider:before {
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+    h1.title {
+        font-size: 20px;
+        line-height: 28px;;
+    }
+    div.subtitle, span.subtitle{
+        margin-left: 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    div.app {
+        width: 100%;
+        min-width: 320px;
+        border-radius: 8px;
+        height: calc(100vh - 8px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .navbar {
+        height: 48px;
+        padding-top: 8px;
+        min-height:unset;
+    }
+    .navbar .top-line{  margin-top: 8px; }
+    .navbar .menu{  padding: 0px 8px 0px 12px; height: 32px; }
+    .navbar .logotype{  height: 24px; }
+
+    .app .app-inner{
+        padding-top: 20px;
+        margin: 0 24px;
+        padding-bottom: 60px;
+        min-height: calc(100vh - 296px);
+        width: calc(100vw - 56px);
+    }
+
+    ::-webkit-scrollbar {  width: 0px !important; }
+    ::-webkit-scrollbar-thumb:hover { border: solid 0px #07903F;}
+
+    .landing-footer {height: 240px;}
+    .landing-footer .footer-text{ 
+        width: 100%;
+        padding: 0px 24px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .landing-footer .footer-text .footer-logo{ margin-top: 72px; }
+    .landing-footer .footer-text .footer-social{
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 20px;
+    }
+    .landing-footer .footer-text .footer-social .footer-text-right{
+        width: 25%;
+        text-align: left;
+    }
+
+    .top-pos-filters div.relative { width: 50%; }
+    .top-pos-filters div.relative button { width: 100%; }
+
+    .table-container{
+        width: calc(100% + 24px);
+    }
+    div.inner-box{
+        padding:0 12px;
+        width: calc(100% + 24px);
+        contain: paint;
+        margin: 0 -12px;
+    }
+    .pos-log {
+        width: 1018px;
+    }
+
+    .table-header{
+        position: sticky;
+        background: #031116;
+        z-index: 10;
+    }
+    .table-header .poolname-header{
+        position: sticky;
+        background: #031116;
+        width: 120px;
+        height: 12px;
+        margin-right: -20px;
+        left: 0px;
+    }
+    .table-header .nft-header{
+        position: sticky;
+        background: #031116;
+        width: 68px;
+        height: 12px;
+        left: 0px;
+    }
+    .table-parch{
+        background: #031116;
+        position: absolute;
+        left: -12px;
+        top: -20px;
+        width: 12px;
+        height: 10000px;
+    }
+    .table-row{ height: 72px; }
+    .table-row .poolname-data{
+        width: 120px;
+        position: sticky;
+        left: 0px;
+        background: #031116;
+        height: 54px;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: center;
+        margin-right: -20px;
+    }
+    .table-row .poolname-data a{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 4px;
+    }
+    .table-lp .table-row{ height: 60px; }
+
+    .table-row .nft-data{
+        position: sticky;
+        left: 0px;
+        height: 58px;
+        background-color: #031116;
+        display: flex;
+        align-items: center;
+        z-index: 5;
+    }
+
+    .hero-section{
+        height: calc(100vh - 80px);
+        max-height: 800px;
+        min-height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 40px 0px;
+        position: relative;
+        background-image: none;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .hero-section .hero-wrapper{
+        display: inline-block;
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hero-section .or{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #E8F9EE;
+        text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.35);
+    }
+    h1.hero {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    p.descriptor {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    h2.subhero {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .active-dexs-secc {
+        flex-direction: column;
+        height: 284px;
+        gap: 12px;
+    }
+    .active-dex {
+        width: 100%;
+        justify-content: space-between;
+        padding: 12px 20px 12px 20px;
+    }
+    .active-dex .info .key {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 12px;
+        height: 24px;
+    }
+    .comming-dexs-secc{
+        flex-direction: column;
+        gap: 12px;
+        height: 176px;
+    }
+    .comming-dex{
+        width:100%;
+    }
+
+    .manage-section{
+        display: flex;
+        flex-direction: column;
+        margin: 120px 0px 60px 0px;
+        height: fit-content;
+    }
+    .manage-text, .manage-image{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .autocompound-section{
+        width: 100%;
+        text-align: left;
+    }
+    .autocompound-section .example-imgs{
+        width: calc(100% + 32px);
+        height: auto;
+        margin: 40px -16px 20px -16px;
+    }
+    .autocompound-section a{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .autocompound-section .tvl-amount .immunefi{
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .initiator-section{
+        flex-direction: column;
+        height: fit-content;
+        margin: 70px 0px;
+    }
+    .initiator-section .initiator-text{
+        width: 100%;
+    }
+    .initiator-section .initiator-example{
+        width: calc(100% + 24px);
+        padding: 20px 12px;
+        margin-top: 40px;
+        margin-right: -12px;
+        margin-left: -12px;
+    }
+    .initiator-section .initiator-example .data{
+        width: calc(50% - 8px);
+    }
+    .initiator-section .initiator-example .data .parameter{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .toppos-section{
+        width: 100%;
+        text-align: left;
+    }
+    .toppos-section .example-imgs{
+        width: calc(100% + 32px);
+        height: auto;
+        margin: 40px -16px 20px -16px;
+        background-image: none;
+    }
+
+    .incentives-section{
+        width: 100%;
+        text-align: left;
+    }
+    .incentives-section .example-imgs{
+        width: calc(100% + 48px);
+        height: auto;
+        margin: 40px -24px 20px -24px;
+        background-image: none;
+    }
+
+    .investors-section{
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+    .investors-section .investors-text { width: 100%;}
+    .investors-section .investors{
+        width: 100%;
+        margin-right: 0px;
+        flex-direction: column;
+        gap: 52px;
+        margin-top: 60px;
+        height: auto;
+    }
+    .investors-section .investors a{ display: inline-table;}
+
+    .blog-section{
+        width: calc(100% + 32px);
+        margin: 40px -16px 20px -16px;
+        padding: 20px 16px 32px 16px;
+    }
+    .blog-section .post{
+        width: 100%;
+    }
+    .blog-section .post .post-intro{
+        width: 100%;
+        height: 68px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+    }
+    .blog-section .post .post-title{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blog-section .post .post-title span{
+        display: block;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+
+    .advices-bann {
+        width:calc(100% + 32px);
+        left: -16px;
+    }
+
+    .liquidity-actions{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        float: none;
+        padding: 0px;
+    }
+
+    .wallet-summary-wrapper{
+        width: calc(100% + 24px);
+    }
+
+    div.bigneg {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    div.bigpos {    
+        font-size: 18px;
+        line-height: 18px;
+    }
+    
+    div.bigneutral, .bigneutral {
+        font-size: 18px;
+        line-height: 18px;
+     }
+    
+     div.lp-inner-box, div.lp-inner-box-optimal{
+        width: calc(100% + 24px);
+        margin-left: -12px;
+        padding: 16px 12px 20px 12px;
+        overflow: hidden;
+    }
+    
+    .option-button{
+        height: 32px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .autocomp-button, .autocomp-button-active{
+        height: 32px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .lp-pos-header{
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    .lp-pos-menu{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap:32px;
+    }
+    .lp-v3pos-menu-segment-left{
+        width: calc(50% - 12px);
+        flex-direction: column;
+        justify-content: start;
+        align-items:flex-start;
+        gap: 8px;
+    }
+    .lp-v3pos-menu-segment-right{
+        width: calc(50% - 12px);
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-end;
+        gap: 8px;
+    }
+    .lp-v3pos-menu-segment-left div, .lp-v3pos-menu-segment-right div{
+        width: 100%;
+        max-width: 160px;
+    }
+
+    .lp-pos-info-segment-header-row{
+        width: 100%;
+    }
+
+    .pool-performance > div{ width: 50%; }
+    .lp-pos-info-segment1-last{ margin-right: 0px;}
+
+    .lp-pos-content{
+        width: calc(200% + 32px);
+        margin-left: 0px;
+        transition: all 0.3s ease-out;
+    }
+    .lp-pos-info-segment12{
+        width: calc(100% + 58px);
+    }
+    .lp-pos-info-segment34{
+        width: calc(100% + 58px);
+        order: -1;
+        min-width: none;
+        max-width: none;
+    }
+
+    .lp-pos-mobile-controls{  display: flex; }
+    .status-control, .charts-control {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 16px 8px;
+        background: transparent;
+        border-bottom: solid 4px transparent;
+        font-family: 'Regio Mono';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #B7CBC1;
+        transition: all 0.5s ease-out;
+        border-radius: 10px 10px 0px 0px;
+      }
+    .control-selected{
+        border-bottom: solid 4px #14F46F;
+        background: #121F23;
+        transition: all 0.3s ease-out;
+        font-family: 'Regio Mono';
+        color: #FFFFFF;
+        transition: all 0.5s ease-out;
+        height: fit-content;
+    }
+    .show-charts{  margin-left: calc(-100% - 32px); }
+    .h-zero { height: 600px; }
+
+    .option-open { margin-top: 32px;}
+
+    .inner-box > .lp-inner-box {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .v3-opp{
+        width:100%;
+        flex-direction: column;
+        gap:20px;
+        padding: 12px 12px 20px 12px;
+    }
+    .rc-button-wrapper{
+        width: 100%;
+    }
+
+    .popover-content{
+        max-width: 80vw;
+    }
+
+    .lp-pos-info-segment_pool{
+        justify-content: space-between;
+    }
+
+    .lp-pos-info-segment_pool > div:nth-child(even){
+        width: auto;
+        min-width: 50%;
+    }
+    .lp-pos-info-segment_pool > div:nth-child(odd){
+        width: auto;
+        min-width: 50%;
+    }
+
+    .pages-menu{
+        transition: all 0.5s ease-out;
+        z-index: -1;
+        top: -300px;
+    }
+    .pages-menu .pool-days-unselected{
+        justify-content: center;
+        margin-bottom: 16px;
+        height: 40px;
+    }
+
+    .fee-tier-link{ width: 100%; }
+    .fee-tier-box {
+        width: 100%;
+        padding: 8px 12px;
+        min-height: 150px;
+     }
+     .fee-tier-box:hover, .fee-tier-box-selected, .fee-tier-box-selected:hover { transform:none }
+     .fee-tier-title{
+        font-size: 18px;
+        margin-bottom: 8px;
+     }
+    .rc-hyperlink-container { width: 100%;}
+    .initiator-sparklines svg { display: none;  }
+    .rc-hyperlink-wrapper { width: 49% !important;}
+
+
+    .backtester-sparklines{
+        width: 48%;
+        margin-right: 0px;
+    }
+    .type-header{
+        position: sticky;
+        left: 0px;
+        background: #031116;
+        height: 24px;
+        align-items: center;
+        display: flex;
+    }
+    .type-data{
+        position: sticky;
+        left: 0px;
+        background: #031116;
+        height: 70px;
+        align-items: center;
+        display: flex;
+    }
+    .initiator-button{
+        width: 100%;
+        transform: none;
+    }
+    .menu-icon .white{
+        transition: all 0.2s ease-out;
+        fill: #FFFFFF;
+        transform-origin: center center;
+        transform-box: border-box;
+    }
+    .open-menu .white{
+        transform-origin: center center;
+        transform: rotate(0deg);
+    }
+
+    .open-menu #rect1{
+        transform: translateY(5.1px) rotate(45deg);
+        transform-origin: 50% 30%;
+        transition: all 0.2s ease-out;
+    }
+    .open-menu #rect2{
+        transform: translateY(0px) rotate(45deg);
+        transform-origin: center center;
+        transition: all 0.2s ease-out 0s;
+    }
+    .open-menu #rect3{
+        transform: translateY(-5px) rotate(-45deg);
+        transform-origin: 50% 70%;
+        transition: all 0.2s ease-out 0s;
+    }
+
+    .wallet-disconnect { width: 32px; height: 32px; }
+
+    .action-button{
+        width: 100%;
+    }
+
+    div.pool-days-selected, div.pool-days-unselected, div.pool-days-unselected:last-of-type{
+        height: 40px;
+    }
+
+    .op-container{
+
+    }
+    .content-incentives{
+        margin: 0 -12px;
+        width: calc(100% + 24px);
+        padding: 32px 14px 80px 14px;
+    }
+    .hero-optimism{
+        border-bottom: 5px solid #80000E;
+        background-image: url(../assets/OP_bannerx2.png);
+        background-size: cover;
+        background-position: 20%;
+        margin: 0 -12px;
+        width: calc(100% + 24px);
+        height: 200px;
+    }
+    .comp-incentives-claim-panel {
+        padding: 12px 12px 20px 12px;
+        width: 100%;
+        height: auto;
+    }
+    h2.incentive-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
   }
