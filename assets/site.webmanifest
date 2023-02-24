@@ -1,6 +1,7 @@
 {
     "name": "revert_",
     "short_name": "revert_",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,5 +16,6 @@
     ],
     "theme_color": "#14F46F",
     "background_color": "#031116",
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "portrait"
 }
