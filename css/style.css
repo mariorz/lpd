@@ -1102,7 +1102,7 @@ div.subtitle2, span.subtitle2 {
 
 .option-open {
     margin-bottom:8px;
-    margin-top:20px;
+    margin-top:32px;
     width: 100%;
     font-family: 'Regio Mono', monospace;
     font-style: normal;
@@ -1396,6 +1396,7 @@ a.lp-pos-link:link, a.lp-pos-link:visited {
     display: flex;
     vertical-align:top;
     overflow:hidden;
+    max-width: 546px;
 }
 .lp-pos-info-segment34 {
     max-width: 440px;
@@ -4575,6 +4576,9 @@ input.now-button[type=range]::-moz-range-thumb {
     }
     .lp-pos-assets-cutted{
         max-width: 50%;
+    }
+    .option-open {
+        margin-top: 20px;
     }
 
   }

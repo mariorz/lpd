@@ -700,6 +700,10 @@ video {
   margin: 0px;
 }
 
+.\!m-0 {
+  margin: 0px !important;
+}
+
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -900,6 +904,10 @@ video {
   margin-left: -1rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1052,6 +1060,10 @@ video {
 
 .min-h-\[400px\] {
   min-height: 400px;
+}
+
+.min-h-\[480px\] {
+  min-height: 480px;
 }
 
 .w-1 {
@@ -1704,6 +1716,10 @@ video {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.\!p-0 {
+  padding: 0px !important;
 }
 
 .py-3 {
