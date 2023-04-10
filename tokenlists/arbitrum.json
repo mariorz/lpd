@@ -13,7 +13,7 @@
             "name": "GMX",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a/logo.png",
             "coingeckoId": "gmx",
             "listedIn": [
                 "coingecko",
@@ -28,7 +28,7 @@
             "name": "Carbon",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xfa42da1bd08341537a44a4ca9d236d1c00a98b40/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xfa42da1bd08341537a44a4ca9d236d1c00a98b40/logo.png",
             "coingeckoId": "carbon-finance",
             "listedIn": [
                 "coingecko",
@@ -42,7 +42,7 @@
             "name": "ChainLink Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xf97f4df75117a78c1a5a0dbb814af92458539fb4/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xf97f4df75117a78c1a5a0dbb814af92458539fb4/logo.png",
             "coingeckoId": "chainlink",
             "listedIn": [
                 "coingecko",
@@ -58,7 +58,7 @@
             "name": "Cream",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xf4d48ce3ee1ac3651998971541badbb9a14d7234/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xf4d48ce3ee1ac3651998971541badbb9a14d7234/logo.png",
             "coingeckoId": "cream-2",
             "listedIn": [
                 "coingecko",
@@ -73,7 +73,7 @@
             "name": "Rari Governance Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xef888bca6ab6b1d26dbec977c455388ecd794794/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xef888bca6ab6b1d26dbec977c455388ecd794794/logo.png",
             "coingeckoId": "rari-governance-token",
             "listedIn": [
                 "coingecko",
@@ -88,7 +88,7 @@
             "name": "Aladdin cvxCRV",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xebf1f92d4384118bfb91b4496660a95931c92861/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xebf1f92d4384118bfb91b4496660a95931c92861/logo.png",
             "coingeckoId": "aladdin-cvxcrv",
             "listedIn": [
                 "coingecko",
@@ -101,7 +101,7 @@
             "name": "ArbiRiseFinance",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xeb6f8eebc83d85120f9299b84da558825685570e/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xeb6f8eebc83d85120f9299b84da558825685570e/logo.png",
             "coingeckoId": "arbirise-finance",
             "listedIn": [
                 "coingecko",
@@ -114,7 +114,7 @@
             "name": "Auctus Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xea986d33ef8a20a96120ecc44dbdd49830192043/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xea986d33ef8a20a96120ecc44dbdd49830192043/logo.png",
             "coingeckoId": "auctus",
             "listedIn": [
                 "coingecko",
@@ -127,7 +127,7 @@
             "name": "Elk",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://raw.githubusercontent.com/elkfinance/tokens/main/logos/xdai/0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE/logo.png",
+            "logoURI-disabled": "https://raw.githubusercontent.com/elkfinance/tokens/main/logos/xdai/0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "1inch",
@@ -140,7 +140,7 @@
             "name": "ArbiNYAN",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xed3fb761414da74b74f33e5c5a1f78104b188dfc/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xed3fb761414da74b74f33e5c5a1f78104b188dfc/logo.png",
             "coingeckoId": "arbinyan",
             "listedIn": [
                 "coingecko",
@@ -155,7 +155,7 @@
             "name": "Aave Arbitrum WETH",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xe50fa9b3c56ffb159cb0fca61f5c9d750e8128c8/logo.png",
             "coingeckoId": "aave-weth",
             "listedIn": [
                 "coingecko",
@@ -168,7 +168,7 @@
             "name": "DEFI Top 5 Tokens Index",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xdeba25af35e4097146d7629055e0ec3c71706324/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xdeba25af35e4097146d7629055e0ec3c71706324/logo.png",
             "coingeckoId": "defi-top-5-tokens-index",
             "listedIn": [
                 "coingecko",
@@ -181,7 +181,7 @@
             "name": "KillSwitchToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xdc7179416c08c15f689d9214a3bec2dd003deabc/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xdc7179416c08c15f689d9214a3bec2dd003deabc/logo.png",
             "coingeckoId": "killswitch",
             "listedIn": [
                 "coingecko",
@@ -194,7 +194,7 @@
             "name": "ZeroTwOhm",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xdb96f8efd6865644993505318cc08ff9c42fb9ac/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xdb96f8efd6865644993505318cc08ff9c42fb9ac/logo.png",
             "coingeckoId": "zerotwohm",
             "listedIn": [
                 "coingecko",
@@ -209,7 +209,7 @@
             "name": "Swapr",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xde903e2712288a1da82942dddf2c20529565ac30/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xde903e2712288a1da82942dddf2c20529565ac30/logo.png",
             "coingeckoId": "swapr",
             "listedIn": [
                 "coingecko",
@@ -224,7 +224,7 @@
             "name": "Honey Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xde31e75182276738b0c025daa8f80020a4f2fbfe/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xde31e75182276738b0c025daa8f80020a4f2fbfe/logo.png",
             "coingeckoId": "honey-pot-beekeepers",
             "listedIn": [
                 "coingecko",
@@ -237,7 +237,7 @@
             "name": "SushiToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xd4d42f0b6def4ce0383636770ef773390d85c61a/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xd4d42f0b6def4ce0383636770ef773390d85c61a/logo.png",
             "coingeckoId": "sushi",
             "listedIn": [
                 "coingecko",
@@ -253,7 +253,7 @@
             "name": "Doubloon Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xd3f1da62cafb7e7bc6531ff1cef6f414291f03d3/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xd3f1da62cafb7e7bc6531ff1cef6f414291f03d3/logo.png",
             "coingeckoId": "doubloon",
             "listedIn": [
                 "coingecko",
@@ -266,7 +266,7 @@
             "name": "dForce USD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xcd14c3a2ba27819b352aae73414a26e2b366dc50/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xcd14c3a2ba27819b352aae73414a26e2b366dc50/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "sushiswap",
@@ -280,7 +280,7 @@
             "name": "Scalara NFT Index",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xcfe3fbc98d80f7eca0bc76cd1f406a19dd425896/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xcfe3fbc98d80f7eca0bc76cd1f406a19dd425896/logo.png",
             "coingeckoId": "scalara-nft-index",
             "listedIn": [
                 "coingecko",
@@ -294,7 +294,7 @@
             "name": "Wootrade Network",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b/logo.png",
             "coingeckoId": "woo-network",
             "listedIn": [
                 "coingecko",
@@ -309,7 +309,7 @@
             "name": "deBridge Ether ",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://cloudstorage.openocean.finance/images/1650029215738_15732322915186336.png",
+            "logoURI-disabled": "https://cloudstorage.openocean.finance/images/1650029215738_15732322915186336.png",
             "coingeckoId": null,
             "listedIn": [
                 "1inch",
@@ -322,7 +322,7 @@
             "name": "CreDA Protocol Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xc136e6b376a9946b156db1ed3a34b08afdaed76d/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xc136e6b376a9946b156db1ed3a34b08afdaed76d/logo.png",
             "coingeckoId": "creda",
             "listedIn": [
                 "coingecko",
@@ -336,7 +336,7 @@
             "name": "Fiat24 USD",
             "decimals": 2,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xbe00f3db78688d9704bcb4e0a827aea3a9cc0d62/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xbe00f3db78688d9704bcb4e0a827aea3a9cc0d62/logo.png",
             "coingeckoId": "fiat24-usd",
             "listedIn": [
                 "coingecko",
@@ -349,7 +349,7 @@
             "name": "Antimatter.Finance Governance Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xaaa62d9584cbe8e4d68a43ec91bff4ff1fadb202/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xaaa62d9584cbe8e4d68a43ec91bff4ff1fadb202/logo.png",
             "coingeckoId": "antimatter",
             "listedIn": [
                 "coingecko",
@@ -362,7 +362,7 @@
             "name": "dForce",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xae6aab43c4f3e0cea4ab83752c278f8debaba689/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xae6aab43c4f3e0cea4ab83752c278f8debaba689/logo.png",
             "coingeckoId": "dforce-token",
             "listedIn": [
                 "coingecko",
@@ -376,7 +376,7 @@
             "name": "Tangle",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa943f863fa69ff4f6d9022843fb861bbee45b2ce/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa943f863fa69ff4f6d9022843fb861bbee45b2ce/logo.png",
             "coingeckoId": "tangle",
             "listedIn": [
                 "coingecko",
@@ -389,7 +389,7 @@
             "name": "Vesta",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa684cd057951541187f288294a1e1c2646aa2d24/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa684cd057951541187f288294a1e1c2646aa2d24/logo.png",
             "coingeckoId": "vesta-finance",
             "listedIn": [
                 "coingecko",
@@ -403,7 +403,7 @@
             "name": "LYS",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa4f595ba35161c9ffe3db8c03991b9c2cbb26c6b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa4f595ba35161c9ffe3db8c03991b9c2cbb26c6b/logo.png",
             "coingeckoId": "lys-capital",
             "listedIn": [
                 "coingecko",
@@ -416,7 +416,7 @@
             "name": "Gnosis Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa0b862f60edef4452f25b4160f177db44deb6cf1/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa0b862f60edef4452f25b4160f177db44deb6cf1/logo.png",
             "coingeckoId": "gnosis",
             "listedIn": [
                 "coingecko",
@@ -433,7 +433,7 @@
             "name": "Tether USD",
             "decimals": 6,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9/logo.png",
             "coingeckoId": "tether",
             "listedIn": [
                 "coingecko",
@@ -450,7 +450,7 @@
             "name": "Uniswap",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0/logo.png",
             "coingeckoId": "uniswap",
             "listedIn": [
                 "coingecko",
@@ -466,7 +466,7 @@
             "name": "USD Coin Arb1",
             "decimals": 6,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xff970a61a04b1ca14834a43f5de4533ebddb5cc8/logo.png",
             "coingeckoId": "usd-coin",
             "listedIn": [
                 "coingecko",
@@ -483,7 +483,7 @@
             "name": "Magic Internet Money",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a/logo.png",
             "coingeckoId": "magic-internet-money",
             "listedIn": [
                 "coingecko",
@@ -499,7 +499,7 @@
             "name": "Hydranet",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xf4fe727c855c2d395852ca43f645cab4b504af23/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xf4fe727c855c2d395852ca43f645cab4b504af23/logo.png",
             "coingeckoId": "hydranet",
             "listedIn": [
                 "coingecko",
@@ -512,7 +512,7 @@
             "name": "Minato",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xf0dfad1817b5ba73726b02ab34dd4b4b00bcd392/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xf0dfad1817b5ba73726b02ab34dd4b4b00bcd392/logo.png",
             "coingeckoId": "minato",
             "listedIn": [
                 "coingecko",
@@ -525,7 +525,7 @@
             "name": "DigitalDollar",
             "decimals": 6,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xf0b5ceefc89684889e5f7e0a7775bd100fcd3709/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xf0b5ceefc89684889e5f7e0a7775bd100fcd3709/logo.png",
             "coingeckoId": "digitaldollar",
             "listedIn": [
                 "coingecko",
@@ -539,7 +539,7 @@
             "name": "xToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xf0a5717ec0883ee56438932b0fe4a20822735fba/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xf0a5717ec0883ee56438932b0fe4a20822735fba/logo.png",
             "coingeckoId": "xtoken",
             "listedIn": [
                 "coingecko",
@@ -552,7 +552,7 @@
             "name": "O3 Swap Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xee9801669c6138e84bd50deb500827b776777d28/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xee9801669c6138e84bd50deb500827b776777d28/logo.png",
             "coingeckoId": "o3-swap",
             "listedIn": [
                 "coingecko",
@@ -566,7 +566,7 @@
             "name": "handleFOREX",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xdb298285fe4c5410b05390ca80e8fbe9de1f259b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xdb298285fe4c5410b05390ca80e8fbe9de1f259b/logo.png",
             "coingeckoId": "handle-fi",
             "listedIn": [
                 "coingecko",
@@ -579,7 +579,7 @@
             "name": "Dai Stablecoin",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1/logo.png",
             "coingeckoId": "dai",
             "listedIn": [
                 "coingecko",
@@ -596,7 +596,7 @@
             "name": "Sperax USD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xd74f5255d557944cf7dd0e45ff521520002d5748/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xd74f5255d557944cf7dd0e45ff521520002d5748/logo.png",
             "coingeckoId": "sperax-usd",
             "listedIn": [
                 "coingecko",
@@ -609,7 +609,7 @@
             "name": "DXdao",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xc3ae0333f0f34aa734d5493276223d95b8f9cb37/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xc3ae0333f0f34aa734d5493276223d95b8f9cb37/logo.png",
             "coingeckoId": "dxdao",
             "listedIn": [
                 "coingecko",
@@ -625,7 +625,7 @@
             "name": "Badger",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xbfa641051ba0a0ad1b0acf549a89536a0d76472e/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xbfa641051ba0a0ad1b0acf549a89536a0d76472e/logo.png",
             "coingeckoId": "badger-dao",
             "listedIn": [
                 "coingecko",
@@ -640,7 +640,7 @@
             "name": "Fuse Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xbdef0e9ef12e689f366fe494a7a7d0dad25d9286/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xbdef0e9ef12e689f366fe494a7a7d0dad25d9286/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "sushiswap",
@@ -654,7 +654,7 @@
             "name": "Indexed",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xb965029343d55189c25a7f3e0c9394dc0f5d41b1/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xb965029343d55189c25a7f3e0c9394dc0f5d41b1/logo.png",
             "coingeckoId": "indexed-finance",
             "listedIn": [
                 "coingecko",
@@ -667,7 +667,7 @@
             "name": "Ideamarket",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xb41bd4c99da73510d9e081c5fadbe7a27ac1f814/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xb41bd4c99da73510d9e081c5fadbe7a27ac1f814/logo.png",
             "coingeckoId": "ideamarket",
             "listedIn": [
                 "coingecko",
@@ -681,7 +681,7 @@
             "name": "Arbucks",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xafd871f684f21ab9d7137608c71808f83d75e6fc/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xafd871f684f21ab9d7137608c71808f83d75e6fc/logo.png",
             "coingeckoId": "arbucks",
             "listedIn": [
                 "coingecko",
@@ -695,7 +695,7 @@
             "name": "DEGEN Index",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xae6e3540e97b0b9ea8797b157b510e133afb6282/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xae6e3540e97b0b9ea8797b157b510e133afb6282/logo.png",
             "coingeckoId": "degen-index",
             "listedIn": [
                 "coingecko",
@@ -708,7 +708,7 @@
             "name": "Synth sUSD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa970af1a584579b618be4d69ad6f73459d112f95/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa970af1a584579b618be4d69ad6f73459d112f95/logo.png",
             "coingeckoId": "nusd",
             "listedIn": [
                 "coingecko",
@@ -723,7 +723,7 @@
             "name": "ArbiMATTER",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa7e1d00f1dc94040a8aad3ad993589f3e39a6b7a/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa7e1d00f1dc94040a8aad3ad993589f3e39a6b7a/logo.png",
             "coingeckoId": "arbimatter",
             "listedIn": [
                 "coingecko",
@@ -736,7 +736,7 @@
             "name": "DeversiFi Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa7aa2921618e3d63da433829d448b58c9445a4c3/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa7aa2921618e3d63da433829d448b58c9445a4c3/logo.png",
             "coingeckoId": "dvf",
             "listedIn": [
                 "coingecko",
@@ -750,7 +750,7 @@
             "name": "Tracer",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0xa72159fc390f0e3c6d415e658264c7c4051e9b87/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0xa72159fc390f0e3c6d415e658264c7c4051e9b87/logo.png",
             "coingeckoId": "tracer-dao",
             "listedIn": [
                 "coingecko",
@@ -764,7 +764,7 @@
             "name": "ARBIS | We have the yields",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x9f20de1fc9b161b34089cbeae888168b44b03461/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x9f20de1fc9b161b34089cbeae888168b44b03461/logo.png",
             "coingeckoId": "arbis-finance",
             "listedIn": [
                 "coingecko",
@@ -778,7 +778,7 @@
             "name": "Ascension Protocol",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x9e724698051da34994f281bd81c3e7372d1960ae/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x9e724698051da34994f281bd81c3e7372d1960ae/logo.png",
             "coingeckoId": "ascension-protocol",
             "listedIn": [
                 "coingecko",
@@ -791,7 +791,7 @@
             "name": "Frax Share",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7/logo.png",
             "coingeckoId": "frax-share",
             "listedIn": [
                 "coingecko",
@@ -806,7 +806,7 @@
             "name": "Impermax",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x9c67ee39e3c4954396b9142010653f17257dd39c/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x9c67ee39e3c4954396b9142010653f17257dd39c/logo.png",
             "coingeckoId": "impermax",
             "listedIn": [
                 "coingecko",
@@ -819,7 +819,7 @@
             "name": "Aluna",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x9b3fa2a7c3eb36d048a5d38d81e7fafc6bc47b25/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x9b3fa2a7c3eb36d048a5d38d81e7fafc6bc47b25/logo.png",
             "coingeckoId": "aluna",
             "listedIn": [
                 "coingecko",
@@ -832,7 +832,7 @@
             "name": "Multichain",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x9fb9a33956351cf4fa040f65a13b835a3c8764e3/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x9fb9a33956351cf4fa040f65a13b835a3c8764e3/logo.png",
             "coingeckoId": "multichain",
             "listedIn": [
                 "coingecko",
@@ -845,7 +845,7 @@
             "name": "MATH Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x99f40b01ba9c469193b360f72740e416b17ac332/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x99f40b01ba9c469193b360f72740e416b17ac332/logo.png",
             "coingeckoId": "math",
             "listedIn": [
                 "coingecko",
@@ -861,7 +861,7 @@
             "name": "beefy.finance",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x99c409e5f62e4bd2ac142f17cafb6810b8f0baae/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x99c409e5f62e4bd2ac142f17cafb6810b8f0baae/logo.png",
             "coingeckoId": "beefy-finance",
             "listedIn": [
                 "coingecko",
@@ -875,7 +875,7 @@
             "name": "VISOR",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x995c235521820f2637303ca1970c7c044583df44/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x995c235521820f2637303ca1970c7c044583df44/logo.png",
             "coingeckoId": "visor",
             "listedIn": [
                 "coingecko",
@@ -890,7 +890,7 @@
             "name": "dForce EUR",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x969131d8ddc06c2be11a13e6e7facf22cf57d95e/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x969131d8ddc06c2be11a13e6e7facf22cf57d95e/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "sushiswap",
@@ -903,7 +903,7 @@
             "name": "PickleToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x965772e0e9c84b6f359c8597c891108dcf1c5b1a/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x965772e0e9c84b6f359c8597c891108dcf1c5b1a/logo.png",
             "coingeckoId": "pickle-finance",
             "listedIn": [
                 "coingecko",
@@ -917,7 +917,7 @@
             "name": "Amy Finance Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x8fbd420956fdd301f4493500fd0bcaaa80f2389c/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x8fbd420956fdd301f4493500fd0bcaaa80f2389c/logo.png",
             "coingeckoId": "amy-finance",
             "listedIn": [
                 "coingecko",
@@ -931,7 +931,7 @@
             "name": "Governance OHM",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/arbitrum/assets/0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1/logo.png",
+            "logoURI-disabled": "https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/arbitrum/assets/0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1/logo.png",
             "coingeckoId": "governance-ohm",
             "listedIn": [
                 "coingecko",
@@ -944,7 +944,7 @@
             "name": "FluidFi",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x876ec6be52486eeec06bc06434f3e629d695c6ba/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x876ec6be52486eeec06bc06434f3e629d695c6ba/logo.png",
             "coingeckoId": "fluidfi",
             "listedIn": [
                 "coingecko",
@@ -958,7 +958,7 @@
             "name": "Omicron",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x86b3353387f560295a8fa7902679735e5f076bd5/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x86b3353387f560295a8fa7902679735e5f076bd5/logo.png",
             "coingeckoId": "omicron",
             "listedIn": [
                 "coingecko",
@@ -971,7 +971,7 @@
             "name": "Arbys",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x86a1012d437bbff84fbdf62569d12d4fd3396f8c/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x86a1012d437bbff84fbdf62569d12d4fd3396f8c/logo.png",
             "coingeckoId": "arbys",
             "listedIn": [
                 "coingecko",
@@ -985,7 +985,7 @@
             "name": "Agave",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x848e0ba28b637e8490d88bae51fa99c87116409b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x848e0ba28b637e8490d88bae51fa99c87116409b/logo.png",
             "coingeckoId": "agave-token",
             "listedIn": [
                 "coingecko",
@@ -998,7 +998,7 @@
             "name": "yearn.finance",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x82e3a8f066a6989666b031d916c43672085b1582/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x82e3a8f066a6989666b031d916c43672085b1582/logo.png",
             "coingeckoId": "yearn-finance",
             "listedIn": [
                 "coingecko",
@@ -1013,7 +1013,7 @@
             "name": "Wrapped Ether",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x82af49447d8a07e3bd95bd0d56f35241523fbab1/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x82af49447d8a07e3bd95bd0d56f35241523fbab1/logo.png",
             "coingeckoId": "weth",
             "listedIn": [
                 "coingecko",
@@ -1030,7 +1030,7 @@
             "name": "Aave Arbitrum DAI",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee/logo.png",
             "coingeckoId": "aave-dai",
             "listedIn": [
                 "coingecko",
@@ -1043,7 +1043,7 @@
             "name": "dHedge DAO Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x8038f3c971414fd1fc220ba727f2d4a0fc98cb65/logo.png",
             "coingeckoId": "dhedge-dao",
             "listedIn": [
                 "coingecko",
@@ -1057,7 +1057,7 @@
             "name": "0xBitcoin Token",
             "decimals": 8,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x7cb16cb78ea464ad35c8a50abf95dff3c9e09d5d/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x7cb16cb78ea464ad35c8a50abf95dff3c9e09d5d/logo.png",
             "coingeckoId": "oxbitcoin",
             "listedIn": [
                 "coingecko",
@@ -1071,7 +1071,7 @@
             "name": "Stake DAO Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x7ba4a00d54a07461d9db2aef539e91409943adc9/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x7ba4a00d54a07461d9db2aef539e91409943adc9/logo.png",
             "coingeckoId": "stake-dao",
             "listedIn": [
                 "coingecko",
@@ -1086,7 +1086,7 @@
             "name": "Spell Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x739ca6d71365a08f584c8fc4e1029045fa8abc4b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x739ca6d71365a08f584c8fc4e1029045fa8abc4b/logo.png",
             "coingeckoId": "wrapped-staked-olympus",
             "listedIn": [
                 "coingecko",
@@ -1101,7 +1101,7 @@
             "name": "Aave Arbitrum USDT",
             "decimals": 6,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x6ab707aca953edaefbc4fd23ba73294241490620/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x6ab707aca953edaefbc4fd23ba73294241490620/logo.png",
             "coingeckoId": "aave-usdt",
             "listedIn": [
                 "coingecko",
@@ -1114,7 +1114,7 @@
             "name": "Connect Financial",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x6f5401c53e2769c858665621d22ddbf53d8d27c5/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x6f5401c53e2769c858665621d22ddbf53d8d27c5/logo.png",
             "coingeckoId": "connect-financial",
             "listedIn": [
                 "coingecko",
@@ -1127,7 +1127,7 @@
             "name": "Dopex Governance Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x6c2c06790b3e3e3c38e12ee22f8183b37a13ee55/logo.png",
             "coingeckoId": "dopex",
             "listedIn": [
                 "coingecko",
@@ -1142,7 +1142,7 @@
             "name": "L2PAD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x6ba4edd6db54ed34d53d8d8883e599c4dba009fb/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x6ba4edd6db54ed34d53d8d8883e599c4dba009fb/logo.png",
             "coingeckoId": "l2pad",
             "listedIn": [
                 "coingecko",
@@ -1155,7 +1155,7 @@
             "name": "DODO bird",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581/logo.png",
             "coingeckoId": "dodo",
             "listedIn": [
                 "coingecko",
@@ -1170,7 +1170,7 @@
             "name": "Ethereum FIL",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x66ba30d5d7c66afd4ed41c3498ec9e20a03a1368/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x66ba30d5d7c66afd4ed41c3498ec9e20a03a1368/logo.png",
             "coingeckoId": "efil",
             "listedIn": [
                 "coingecko",
@@ -1183,7 +1183,7 @@
             "name": "StargateToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x6694340fc020c5e6b96567843da2df01b2ce1eb6/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x6694340fc020c5e6b96567843da2df01b2ce1eb6/logo.png",
             "coingeckoId": "stargate-finance",
             "listedIn": [
                 "coingecko",
@@ -1198,7 +1198,7 @@
             "name": "Vesta Stable",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://cloudstorage.openocean.finance/images/1654019188369_5033276623551377.png",
+            "logoURI-disabled": "https://cloudstorage.openocean.finance/images/1654019188369_5033276623551377.png",
             "coingeckoId": "vesta-stable",
             "listedIn": [
                 "coingecko",
@@ -1211,7 +1211,7 @@
             "name": "dForce USD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x641441c631e2f909700d2f41fd87f0aa6a6b4edb/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x641441c631e2f909700d2f41fd87f0aa6a6b4edb/logo.png",
             "coingeckoId": "token-dforce-usd",
             "listedIn": [
                 "coingecko",
@@ -1224,7 +1224,7 @@
             "name": "Aave Arbitrum USDC",
             "decimals": 6,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x625e7708f30ca75bfd92586e17077590c60eb4cd/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x625e7708f30ca75bfd92586e17077590c60eb4cd/logo.png",
             "coingeckoId": "aave-usdc",
             "listedIn": [
                 "coingecko",
@@ -1237,7 +1237,7 @@
             "name": "QIAN second generation dollar",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x5837d843d49ffdefc78fe09b5f371427c917946f/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x5837d843d49ffdefc78fe09b5f371427c917946f/logo.png",
             "coingeckoId": "qian-second-generation-dollar",
             "listedIn": [
                 "coingecko",
@@ -1250,7 +1250,7 @@
             "name": "Sperax",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x5575552988a3a80504bbaeb1311674fcfd40ad4b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x5575552988a3a80504bbaeb1311674fcfd40ad4b/logo.png",
             "coingeckoId": "sperax",
             "listedIn": [
                 "coingecko",
@@ -1263,7 +1263,7 @@
             "name": "MAGIC",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x539bde0d7dbd336b79148aa742883198bbf60342/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x539bde0d7dbd336b79148aa742883198bbf60342/logo.png",
             "coingeckoId": "magic",
             "listedIn": [
                 "coingecko",
@@ -1278,7 +1278,7 @@
             "name": "Premia",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x51fc0f6660482ea73330e414efd7808811a57fa2/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x51fc0f6660482ea73330e414efd7808811a57fa2/logo.png",
             "coingeckoId": "premia",
             "listedIn": [
                 "coingecko",
@@ -1294,7 +1294,7 @@
             "name": "Plutus",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x51318b7d00db7acc4026c88c3952b66278b6a67f/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x51318b7d00db7acc4026c88c3952b66278b6a67f/logo.png",
             "coingeckoId": "plutusdao",
             "listedIn": [
                 "coingecko",
@@ -1307,7 +1307,7 @@
             "name": "MCDEX Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x4e352cf164e64adcbad318c3a1e222e9eba4ce42/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x4e352cf164e64adcbad318c3a1e222e9eba4ce42/logo.png",
             "coingeckoId": "mcdex",
             "listedIn": [
                 "coingecko",
@@ -1323,7 +1323,7 @@
             "name": "TrueUSD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x4d15a3a2286d883af0aa1b3f21367843fac63e07/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x4d15a3a2286d883af0aa1b3f21367843fac63e07/logo.png",
             "coingeckoId": "true-usd",
             "listedIn": [
                 "coingecko",
@@ -1337,7 +1337,7 @@
             "name": "Futureswap Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x488cc08935458403a0458e45e20c0159c8ab2c92/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x488cc08935458403a0458e45e20c0159c8ab2c92/logo.png",
             "coingeckoId": "futureswap",
             "listedIn": [
                 "coingecko",
@@ -1350,7 +1350,7 @@
             "name": "LoopringCoin V2",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x46d0ce7de6247b0a95f67b43b589b4041bae7fbe/logo.png",
             "coingeckoId": "loopring",
             "listedIn": [
                 "coingecko",
@@ -1364,7 +1364,7 @@
             "name": "The Doge NFT",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x4425742f1ec8d98779690b5a3a6276db85ddc01a/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x4425742f1ec8d98779690b5a3a6276db85ddc01a/logo.png",
             "coingeckoId": "the-doge-nft",
             "listedIn": [
                 "coingecko",
@@ -1379,7 +1379,7 @@
             "name": "CelerToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3a8b787f78d775aecfeea15706d4221b40f345ab/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3a8b787f78d775aecfeea15706d4221b40f345ab/logo.png",
             "coingeckoId": "celer-network",
             "listedIn": [
                 "coingecko",
@@ -1395,7 +1395,7 @@
             "name": "Mai Stablecoin",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3f56e0c36d275367b8c502090edf38289b3dea0d/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3f56e0c36d275367b8c502090edf38289b3dea0d/logo.png",
             "coingeckoId": "mimatic",
             "listedIn": [
                 "coingecko",
@@ -1409,7 +1409,7 @@
             "name": "Spell Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af/logo.png",
             "coingeckoId": "spell-token",
             "listedIn": [
                 "coingecko",
@@ -1425,7 +1425,7 @@
             "name": "Land",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3cd1833ce959e087d0ef0cb45ed06bffe60f23ba/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "1inch",
@@ -1439,7 +1439,7 @@
             "name": "ROOBEE",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3bd2dfd03bc7c3011ed7fb8c4d0949b382726cee/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3bd2dfd03bc7c3011ed7fb8c4d0949b382726cee/logo.png",
             "coingeckoId": "roobee",
             "listedIn": [
                 "coingecko",
@@ -1452,7 +1452,7 @@
             "name": "Wrapped ZYX",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x377c6e37633e390aef9afb4f5e0b16689351eed4/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x377c6e37633e390aef9afb4f5e0b16689351eed4/logo.png",
             "coingeckoId": "zyx",
             "listedIn": [
                 "coingecko",
@@ -1465,7 +1465,7 @@
             "name": "Plenny",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3642c0680329ae3e103e2b5ab29ddfed4d43cbe5/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3642c0680329ae3e103e2b5ab29ddfed4d43cbe5/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "1inch",
@@ -1479,7 +1479,7 @@
             "name": "Compound",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x354a6da3fcde098f8389cad84b0182725c6c91de/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x354a6da3fcde098f8389cad84b0182725c6c91de/logo.png",
             "coingeckoId": "compound-governance-token",
             "listedIn": [
                 "coingecko",
@@ -1495,7 +1495,7 @@
             "name": "xDollar Stablecoin",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x3509f19581afedeff07c53592bc0ca84e4855475/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x3509f19581afedeff07c53592bc0ca84e4855475/logo.png",
             "coingeckoId": "xdollar-stablecoin",
             "listedIn": [
                 "coingecko",
@@ -1509,7 +1509,7 @@
             "name": "Dopex Rebate Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x32eb7902d4134bf98a28b963d26de779af92a212/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x32eb7902d4134bf98a28b963d26de779af92a212/logo.png",
             "coingeckoId": "dopex-rebate-token",
             "listedIn": [
                 "coingecko",
@@ -1524,7 +1524,7 @@
             "name": "Strips Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x326c33fd1113c1f29b35b4407f3d6312a8518431/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x326c33fd1113c1f29b35b4407f3d6312a8518431/logo.png",
             "coingeckoId": "strips-finance",
             "listedIn": [
                 "coingecko",
@@ -1538,7 +1538,7 @@
             "name": "Cartesi Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x319f865b287fcc10b30d8ce6144e8b6d1b476999/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x319f865b287fcc10b30d8ce6144e8b6d1b476999/logo.png",
             "coingeckoId": "cartesi",
             "listedIn": [
                 "coingecko",
@@ -1552,7 +1552,7 @@
             "name": "Wrapped BTC",
             "decimals": 8,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f/logo.png",
             "coingeckoId": "wrapped-bitcoin",
             "listedIn": [
                 "coingecko",
@@ -1568,7 +1568,7 @@
             "name": "Maker",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879/logo.png",
             "coingeckoId": "maker",
             "listedIn": [
                 "coingecko",
@@ -1584,7 +1584,7 @@
             "name": "MAGICToken",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x2c852d3334188be136bfc540ef2bb8c37b590bad/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x2c852d3334188be136bfc540ef2bb8c37b590bad/logo.png",
             "coingeckoId": "magic-token",
             "listedIn": [
                 "coingecko",
@@ -1597,7 +1597,7 @@
             "name": "Layer2DAO",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x2cab3abfc1670d1a452df502e216a66883cdf079/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x2cab3abfc1670d1a452df502e216a66883cdf079/logo.png",
             "coingeckoId": "layer2dao",
             "listedIn": [
                 "coingecko",
@@ -1610,7 +1610,7 @@
             "name": "Stabilize Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x2c110867ca90e43d372c1c2e92990b00ea32818b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x2c110867ca90e43d372c1c2e92990b00ea32818b/logo.png",
             "coingeckoId": "stabilize",
             "listedIn": [
                 "coingecko",
@@ -1623,7 +1623,7 @@
             "name": "AFARM Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x2ae1ef41cd23e3e77f75789e9393d8951705470f/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x2ae1ef41cd23e3e77f75789e9393d8951705470f/logo.png",
             "coingeckoId": "arbifarm",
             "listedIn": [
                 "coingecko",
@@ -1636,7 +1636,7 @@
             "name": "Graph Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x23a941036ae778ac51ab04cea08ed6e2fe103614/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x23a941036ae778ac51ab04cea08ed6e2fe103614/logo.png",
             "coingeckoId": "the-graph",
             "listedIn": [
                 "coingecko",
@@ -1652,7 +1652,7 @@
             "name": "Deri",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x21e60ee73f17ac0a411ae5d690f908c3ed66fe12/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x21e60ee73f17ac0a411ae5d690f908c3ed66fe12/logo.png",
             "coingeckoId": "deri-protocol",
             "listedIn": [
                 "coingecko",
@@ -1665,7 +1665,7 @@
             "name": "deBridge USD Coin",
             "decimals": 6,
             "chainId": 42161,
-            "logoURI": "https://cloudstorage.openocean.finance/images/1650029132289_12499390331785354.png",
+            "logoURI-disabled": "https://cloudstorage.openocean.finance/images/1650029132289_12499390331785354.png",
             "coingeckoId": null,
             "listedIn": [
                 "1inch",
@@ -1678,7 +1678,7 @@
             "name": "Aave Arbitrum LINK",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x191c10aa4af7c30e871e70c95db0e4eb77237530/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x191c10aa4af7c30e871e70c95db0e4eb77237530/logo.png",
             "coingeckoId": "aave-link",
             "listedIn": [
                 "coingecko",
@@ -1691,7 +1691,7 @@
             "name": "Frax ",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://cloudstorage.openocean.finance/images/1648904910983_5811737493655886.png",
+            "logoURI-disabled": "https://cloudstorage.openocean.finance/images/1648904910983_5811737493655886.png",
             "coingeckoId": "frax",
             "listedIn": [
                 "coingecko",
@@ -1705,7 +1705,7 @@
             "name": "Umami",
             "decimals": 9,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x1622bf67e6e5747b81866fe0b85178a93c7f86e3/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x1622bf67e6e5747b81866fe0b85178a93c7f86e3/logo.png",
             "coingeckoId": "umami-finance",
             "listedIn": [
                 "coingecko",
@@ -1719,7 +1719,7 @@
             "name": "ArbiDoge",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x155f0dd04424939368972f4e1838687d6a831151/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x155f0dd04424939368972f4e1838687d6a831151/logo.png",
             "coingeckoId": "arbidoge",
             "listedIn": [
                 "coingecko",
@@ -1733,7 +1733,7 @@
             "name": "EthereumMax",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x123389c2f0e9194d9ba98c21e63c375b67614108/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x123389c2f0e9194d9ba98c21e63c375b67614108/logo.png",
             "coingeckoId": "ethereummax",
             "listedIn": [
                 "coingecko",
@@ -1747,7 +1747,7 @@
             "name": "Curve DAO Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x11cdb42b0eb46d95f990bedd4695a6e3fa034978/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x11cdb42b0eb46d95f990bedd4695a6e3fa034978/logo.png",
             "coingeckoId": "curve-dao-token",
             "listedIn": [
                 "coingecko",
@@ -1764,7 +1764,7 @@
             "name": "Jones DAO",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x10393c20975cf177a3513071bc110f7962cd67da/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x10393c20975cf177a3513071bc110f7962cd67da/logo.png",
             "coingeckoId": "jones-dao",
             "listedIn": [
                 "coingecko",
@@ -1778,7 +1778,7 @@
             "name": "Hundred Finance",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x10010078a54396f62c96df8532dc2b4847d47ed3/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x10010078a54396f62c96df8532dc2b4847d47ed3/logo.png",
             "coingeckoId": "hundred-finance",
             "listedIn": [
                 "coingecko",
@@ -1793,7 +1793,7 @@
             "name": "CUDL",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x0f4676178b5c53ae0a655f1b19a96387e4b8b5f2/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x0f4676178b5c53ae0a655f1b19a96387e4b8b5f2/logo.png",
             "coingeckoId": "cudl-finance",
             "listedIn": [
                 "coingecko",
@@ -1806,7 +1806,7 @@
             "name": "Alchemy",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x0e15258734300290a651fdbae8deb039a8e7a2fa/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x0e15258734300290a651fdbae8deb039a8e7a2fa/logo.png",
             "coingeckoId": "alchemy-dao",
             "listedIn": [
                 "coingecko",
@@ -1821,7 +1821,7 @@
             "name": "Zippie",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x0f61b24272af65eacf6adfe507028957698e032f/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x0f61b24272af65eacf6adfe507028957698e032f/logo.png",
             "coingeckoId": null,
             "listedIn": [
                 "1inch",
@@ -1834,7 +1834,7 @@
             "name": "iZUMi Bond USD",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x0a3bb08b3a15a19b4de82f8acfc862606fb69a2d/logo.png",
             "coingeckoId": "izumi-bond-usd",
             "listedIn": [
                 "coingecko",
@@ -1847,7 +1847,7 @@
             "name": "Synapse",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x080f6aed32fc474dd5717105dba5ea57268f46eb/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x080f6aed32fc474dd5717105dba5ea57268f46eb/logo.png",
             "coingeckoId": "synapse-2",
             "listedIn": [
                 "coingecko",
@@ -1860,7 +1860,7 @@
             "name": "Aave Arbitrum WBTC",
             "decimals": 8,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x078f358208685046a11c85e8ad32895ded33a249/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x078f358208685046a11c85e8ad32895ded33a249/logo.png",
             "coingeckoId": "aave-wbtc",
             "listedIn": [
                 "coingecko",
@@ -1873,7 +1873,7 @@
             "name": "Arrb Token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x04f3636b31c1ea2e48e275aa992d99a7bdbbe738/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x04f3636b31c1ea2e48e275aa992d99a7bdbbe738/logo.png",
             "coingeckoId": "arrb-token",
             "listedIn": [
                 "coingecko",
@@ -1886,7 +1886,7 @@
             "name": "QIAN governance token",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x04cb2d263a7489f02d813eaab9ba1bb8466347f2/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x04cb2d263a7489f02d813eaab9ba1bb8466347f2/logo.png",
             "coingeckoId": "chemix-ecology-governance-token",
             "listedIn": [
                 "coingecko",
@@ -1900,7 +1900,7 @@
             "name": "Balancer",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x040d1edc9569d4bab2d15287dc5a4f10f56a56b8/logo.png",
             "coingeckoId": "balancer",
             "listedIn": [
                 "coingecko",
@@ -1916,7 +1916,7 @@
             "name": "Cap",
             "decimals": 18,
             "chainId": 42161,
-            "logoURI": "https://api.rubic.exchange/assets/arbitrum/0x031d35296154279dc1984dcd93e392b1f946737b/logo.png",
+            "logoURI-disabled": "https://api.rubic.exchange/assets/arbitrum/0x031d35296154279dc1984dcd93e392b1f946737b/logo.png",
             "coingeckoId": "cap",
             "listedIn": [
                 "coingecko",
